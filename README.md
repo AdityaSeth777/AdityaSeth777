@@ -41,4 +41,4 @@ Languages = ["C", "C++", "Python", "HTML", "CSS"]
 </div>
 
 ## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
-<a hred="https://adityaseth777.github.io/adityaseth.github.io/"><img src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/images/Profile.jpeg">
+<a hred="https://adityaseth777.github.io/adityaseth.github.io/"><img src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/images/Profile.png">
