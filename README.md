@@ -43,7 +43,7 @@ Languages = ["C", "C++", "Python", "HTML", "CSS"]
 ### Statistics :  
 <div align=center> 
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast)]
 </div>
 
 ## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
