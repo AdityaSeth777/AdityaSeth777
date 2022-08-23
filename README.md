@@ -40,7 +40,11 @@ Languages = ["C", "C++", "Python", "HTML", "CSS"]
 <a href="https://www.quora.com/profile/Aditya-Seth-133?ch=10&oid=1734427191&share=5335f444&srid=hzXNBO&target_type=user" alt="Aditya Seth | Quora"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-quora-is-a-question-and-answer-website-where-questions-are-asked-logo-shadow-tal-revivo.png"/>
   </div>
 
+### Statistics :  
+<div align=center> 
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast)](https://git.io/streak-stats)
+</div>
 
 ## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
 <a href="https://adityaseth777.github.io/adityaseth.github.io/"><img src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/images/Profile.png">
