@@ -40,5 +40,11 @@ Languages = ["C", "C++", "Python", "HTML", "CSS"]
 <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
 </div>
 
+### Statistics : 
+<div align=center> 
+
+![Aditya's GitHub stats](https://github-readme-stats.vercel.app/api?username=AdityaSeth777&show_icons=true&theme=tokyonight)
+</div>
+
 ## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
 <a href="https://adityaseth777.github.io/adityaseth.github.io/"><img src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/images/Profile.png">
