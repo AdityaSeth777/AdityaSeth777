@@ -5,6 +5,7 @@
 Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
 Languages = ["C", "C++", "Python", "HTML", "CSS"]
+OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux"]
 ```
 <div align=center>
   
@@ -17,7 +18,7 @@ Languages = ["C", "C++", "Python", "HTML", "CSS"]
 <img src="https://img.icons8.com/color/48/000000/c-programming.png">
 <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png">
 <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
-<img src="https://img.icons8.com/color/48/000000/flutter.png"/>
+<img src="https://img.icons8.com/color/48/000000/kotlin.png"/>
 <img src="https://img.icons8.com/color/48/000000/linux--v1.png"/>
 <img src="https://img.icons8.com/color/48/000000/github--v1.png"/>
 <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png"/>
