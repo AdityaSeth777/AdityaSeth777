@@ -43,8 +43,10 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ### Statistics :  
 <div align=center> 
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast)]
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast)
 </div>
+
+[![Aditya's github activity graph](https://activity-graph.herokuapp.com/graph?username=AdityaSeth777&theme=react-dark)](https://github.com/AdityaSeth777/github-readme-activity-graph)
 
 ## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
 <a href="https://adityaseth777.github.io/adityaseth.github.io/"><img src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/images/profile.png">
