@@ -1,6 +1,7 @@
 # Hola a todos ! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px">
 
 ![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=green)
+
 ```python
 Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
