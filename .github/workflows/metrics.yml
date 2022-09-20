@@ -16,3 +16,15 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           
+  followers:
+   runs-on: ubuntu-latest
+   permissions:
+      contents: write
+   steps:
+      - uses: lowlighter/metrics@latest
+        with:
+         filename: metrics.plugin.people.followers.svg
+         token: ${{ secrets.FOLLOWER_TOKEN }}
+         base: ""
+         plugin_people: yes
+         plugin_people_types: followers
