@@ -1,0 +1,19 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 3 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+
+jobs:
+  build:
+    name: Followers
+    uses: lowlighter/metrics@latest
+    with:
+     filename: metrics.plugin.people.followers.svg
+     token: ${{ secrets.METRICS_TOKEN }}
+     base: ""
+     plugin_people: yes
+     plugin_people_types: followers
