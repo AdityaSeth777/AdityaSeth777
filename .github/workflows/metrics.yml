@@ -53,7 +53,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: activity.svg
-          token: ${{ secrets.ACTIONS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 3
