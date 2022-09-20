@@ -24,7 +24,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
          filename: metrics.plugin.people.followers.svg
-         token: ${{ secrets.FOLLOWER_TOKEN }}
+         token: ${{ secrets.FOLLOWER_KEY }}
          base: ""
          plugin_people: yes
          plugin_people_types: followers
