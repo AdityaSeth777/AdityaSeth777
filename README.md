@@ -46,8 +46,21 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast)
 </div>
+<div align=center>            
+   <a href="https://github.com/Sabyasachi-Seal">
+   <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=0ce39f&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+:)+->" />
+   <img width=100% height=100% align="center" alt="Followers" src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/metrics.plugin.people.followers.svg" />
+   </a>
+</div>
 
+  
 [![Aditya's github activity graph](https://activity-graph.herokuapp.com/graph?username=AdityaSeth777&theme=react-dark)](https://github.com/AdityaSeth777)
 
+<div align=center>
+   <a href="https://github.com/AdityaSeth777" target="_blank">
+   <img align=center width=100% src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/profile-3d-contrib/profile-night-rainbow.svg" />
+   </a>
+</div>  
+  
 ## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
 <a href="https://adityaseth777.github.io/adityaseth.github.io/"><img src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/images/profile.png">
