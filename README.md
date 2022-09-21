@@ -47,7 +47,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast)
 </div>
 <div align=center>            
-   <a href="https://github.com/Sabyasachi-Seal">
+   <a href="https://github.com/AdityaSeth777">
    <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=0ce39f&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+:)+->" />
    <img width=100% height=100% align="center" alt="Followers" src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/metrics.plugin.people.followers.svg" />
    </a>
