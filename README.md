@@ -5,8 +5,8 @@
 ```python
 Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
-Languages = ["C", "C++", "Python", "HTML", "CSS"]
-OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux"]
+Languages = ["C", "C++", "Python", "HTML", "CSS", "Kotlin"]
+OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
 ```
 <div align=center>
   
