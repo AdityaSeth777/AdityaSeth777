@@ -53,7 +53,8 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
    </a>
 </div>
 
-  
+[![@adityaseth777's Holopin board](https://holopin.me/adityaseth777)](https://holopin.io/@adityaseth777)
+
 [![Aditya's github activity graph](https://activity-graph.herokuapp.com/graph?username=AdityaSeth777&theme=react-dark)](https://github.com/AdityaSeth777)
 
 <div align=center>
