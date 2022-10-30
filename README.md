@@ -82,6 +82,9 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
    <img align=center width=100% src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/profile-3d-contrib/profile-night-rainbow.svg" />
    </a>
 </div>  
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=AdityaSeth777&theme=juicyfresh)](https://github.com/AdityaSeth777/github-profile-trophy)
+  
   
 ## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
 <a href="https://adityaseth777.github.io/adityaseth.github.io/"><img src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/images/profile.png">
