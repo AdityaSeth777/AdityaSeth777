@@ -1,7 +1,9 @@
 # Hola a todos ! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px">
 
 ![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=blue)
-
+</a>
+<a href="https://github.com/AdityaSeth777?tab=followers"><img src="https://img.shields.io/github/followers/AdityaSeth777?label=Followers&style=social" alt="GitHub Badge"></a>
+</p>
 
 ```python
 Name = "Aditya Seth"
@@ -21,12 +23,16 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png">
 <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
 <img src="https://img.icons8.com/color/48/000000/kotlin.png"/>
+<img src="https://img.icons8.com/color/48/000000/heroku.png"/>
+<img src="https://img.icons8.com/color/48/000000/git.png"/>
 <img src="https://img.icons8.com/color/48/000000/linux--v1.png"/>
 <img src="https://img.icons8.com/color/48/000000/github--v1.png"/>
 <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png"/>
 <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
 <img src="https://img.icons8.com/color/48/000000/adobe-creative-cloud--v1.png"/>
 <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
+
+
 </div>
 
 
@@ -40,6 +46,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <a href="https://www.hackerrank.com/adityaseth_cse" alt="Aditya Seth | HackerRank"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-shadow-tal-revivo.png">
 <a href="https://www.cloudskillsboost.google/public_profiles/b8eb9de8-382a-4ff8-9088-7ea496aac45d" alt="Aditya Seth | Google Cloud Skills"><img src="https://img.icons8.com/fluency/48/000000/google-cloud.png">
 <a href="https://www.quora.com/profile/Aditya-Seth-133?ch=10&oid=1734427191&share=5335f444&srid=hzXNBO&target_type=user" alt="Aditya Seth | Quora"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-quora-is-a-question-and-answer-website-where-questions-are-asked-logo-shadow-tal-revivo.png"/>
+<a href="https://auth.geeksforgeeks.org/user/adityaseth_777/" alt="Aditya Seth | Quora"><img src="https://img.icons8.com/color/48/000000/GeeksforGeeks.png"/>
   </div>
 
 ### Statistics :  
