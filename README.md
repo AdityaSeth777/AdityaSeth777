@@ -11,10 +11,10 @@ Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Ph
 Languages = ["C", "C++", "Python", "HTML", "CSS", "Kotlin"]
 OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
 ```
-<div align=center>
+<!-- <div align=center>
   
 [![coding speed x 1000](/images/187495.gif)](https://github.com/AdityaSeth777)
-</div>
+</div> !-->
 
 ### Tech Stack:
 <div align=center>  
