@@ -5,6 +5,7 @@
 <a href="https://github.com/AdityaSeth777?tab=followers"><img src="https://img.shields.io/github/followers/AdityaSeth777?label=Followers&style=social" alt="GitHub Badge"></a>
 </p>
 
+
 ```python
 Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
@@ -15,6 +16,15 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
   
 [![coding speed x 1000](/images/187495.gif)](https://github.com/AdityaSeth777)
 </div> !-->
+
+  
+### Wanna listen to what I am listening to ? :)  
+
+<div align=center> 
+  
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=setha4195&cover_image=true&theme=novatorem&show_offline=true&background_color=121212)](https://spotify-github-profile.vercel.app/api/view?uid=setha4195&redirect=true)
+  
+</div>
 
 ### Tech Stack:
 <div align=center>  
