@@ -79,7 +79,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 </div>
  
 <div align=center> 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=AdityaSeth777&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=12&exclude_repo=adityaseth.github.io&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
 
 </div>
   
