@@ -87,7 +87,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <div align=center>            
    <a href="https://github.com/AdityaSeth777">
    <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=0ce39f&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+:)+->" />
-   <img width=100% height=100% align="center" alt="Followers" src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/metrics.plugin.people.followers.svg" />
+   <img width=100% height=100% align="center" alt="Followers" src="metrics.plugin.people.followers.svg" />
    </a>
 </div>
 
@@ -100,7 +100,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 <div align=center>
    <a href="https://github.com/AdityaSeth777" target="_blank">
-   <img align=center width=100% src="https://github.com/AdityaSeth777/AdityaSeth777/blob/main/profile-3d-contrib/profile-night-rainbow.svg" />
+   <img align=center width=100% src="profile-3d-contrib/profile-night-rainbow.svg" />
    </a>
 </div>  
 
