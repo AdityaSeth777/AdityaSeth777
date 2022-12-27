@@ -83,13 +83,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 </div>
   
-  
-<div align=center>            
-   <a href="https://github.com/AdityaSeth777">
-   <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=0ce39f&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+:)+->" />
-   <img width=100% height=100% align="center" alt="Followers" src="metrics.plugin.people.followers.svg" />
-   </a>
-</div>
+
 
 [![@adityaseth777's Holopin board](https://holopin.me/adityaseth777)](https://holopin.io/@adityaseth777)
 
@@ -98,14 +92,10 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 !-->
 
-<div align=center>
-   <a href="https://github.com/AdityaSeth777" target="_blank">
-   <img align=center width=100% src="profile-3d-contrib/profile-night-rainbow.svg" />
-   </a>
-</div>  
+
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=AdityaSeth777&theme=juicyfresh)](https://github.com/AdityaSeth777/github-profile-trophy)
   
   
-## [Website -->](https://adityaseth777.github.io/adityaseth.github.io/)
-<a href="https://adityaseth777.github.io/adityaseth.github.io/"><img src="images/profile.png">
+## [Website -->](www.adityaseth.me)
+<a href="www.adityaseth.me"><img src="pro.png">
