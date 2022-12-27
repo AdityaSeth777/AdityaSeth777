@@ -1,9 +1,10 @@
-# Hola a todos ! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px">
+# Hola a todos ! 
+## Click here to viist my website -> [www.adityaseth.me](www.adityaseth.me)
 
 ![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=blue)
 </a>
 <a href="https://github.com/AdityaSeth777?tab=followers"><img src="https://img.shields.io/github/followers/AdityaSeth777?label=Followers&style=social" alt="GitHub Badge"></a>
-<a href ="https://metrics.lecoq.io/insights/AdityaSeth777"><img src="https://img.shields.io/badge/-informational?&label=GitHub+Metrics&style=social"/>
+<a href ="https://metrics.lecoq.io/insights/AdityaSeth777"><img src="https://img.shields.io/badge/-informational?&label=GitHub+Metrics&style=social"/></a>
 
 </p>
 
@@ -12,6 +13,7 @@ Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
 Languages = ["C", "C++", "Python", "HTML", "CSS", "Kotlin"]
 OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
+
 ```
 <!-- <div align=center>
   
@@ -97,5 +99,3 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 [![trophy](https://github-profile-trophy.vercel.app/?username=AdityaSeth777&theme=juicyfresh)](https://github.com/AdityaSeth777/github-profile-trophy)
   
   
-## [Website -->](www.adityaseth.me)
-<a href="www.adityaseth.me"><img src="pro.png">
