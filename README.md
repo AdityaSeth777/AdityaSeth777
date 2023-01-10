@@ -1,5 +1,5 @@
 # Hola a todos ! 
-## Click here to viist my website -> [www.adityaseth.me](www.adityaseth.me)
+## Click here to viist my website -> [(www.adityaseth.me)](https://adityaseth.me)
 
 ![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=blue)
 </a>
