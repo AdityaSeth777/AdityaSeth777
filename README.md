@@ -90,11 +90,8 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 [![@adityaseth777's Holopin board](https://holopin.me/adityaseth777)](https://holopin.io/@adityaseth777)
 
-<!--
-[![Aditya's github activity graph](https://activity-graph.herokuapp.com/graph?username=AdityaSeth777&theme=react-dark)](https://github.com/AdityaSeth777)
 
-!-->
-
+[![Aditya's Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=AdityaSeth777&theme=react-dark)](https://github.com/AdityaSeth777)
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=AdityaSeth777&theme=juicyfresh)](https://github.com/AdityaSeth777/github-profile-trophy)
