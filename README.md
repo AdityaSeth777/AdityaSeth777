@@ -86,14 +86,14 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <p><img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=12&exclude_repo=adityaseth.github.io&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
 
 </div>
-<!--
+
 <div align=center>            
    <a href="https://github.com/AdityaSeth777">
    <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=0ce39f&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+:)+->" />
    <img width=100% height=100% align="center" alt="Followers" src="metrics.plugin.people.followers.svg" />
    </a>
 </div>  
-!-->
+
   
 <div align=center>
    <a href="https://github.com/AdityaSeth777" target="_blank">
