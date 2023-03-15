@@ -8,6 +8,7 @@
 
 </p>
 
+
 ```python
 Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
