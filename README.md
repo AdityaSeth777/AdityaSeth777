@@ -90,10 +90,10 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 <div align=center>            
    <a href="https://github.com/AdityaSeth777">
-   <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=0ce39f&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+:)+->" />
-   <img width=100% height=100% align="center" alt="Followers" src="metrics.plugin.people.followers.svg" />
+   <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=e3d20c&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+!!!" />
+   <img width=100% height=100% align="center" alt="Followers" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/followers.svg" />
    </a>
-</div>  
+</div>
 
   
 <div align=center>
@@ -101,6 +101,18 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
    <img align=center width=100% src="profile-3d-contrib/profile-night-rainbow.svg" />
    </a>
 </div> 
+<div align=center>
+   <a href="https://github.com/AdityaSeth777">
+   <img width=49% src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/achievements.svg" />
+   <img width=49% src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/skyline.svg" />
+   </a>
+</div>
+
+<div align=center>
+   <a href="https://github.com/AdityaSeth777">            
+   <img align="center" alt="Coding Habits" width=100% src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/codehabits.svg" />
+   </a>
+</div>
 
 [![@adityaseth777's Holopin board](https://holopin.me/adityaseth777)](https://holopin.io/@adityaseth777)
 
