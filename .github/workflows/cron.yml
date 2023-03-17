@@ -1,0 +1,51 @@
+name: Cron Updater
+on:
+  # push:
+  #   branch: [ master ]
+  schedule:
+    - cron: '5 0 * * *'
+  workflow_dispatch:
+jobs:
+  release:
+    name: Cron Updater
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Requests
+        run: |
+          pip install requests
+      # - name: Install YAML
+      #   run: |
+      #     pip install pyyaml
+      #   env:
+      #     key: ${{ secrets.key }}
+      - name: Git Config
+        run: |
+          git config user.name AdityaSeth777
+          git config user.email adityaseth.cse@gmail.com
+          git pull
+      - name: Update Cron
+        run: |
+          python cron.py
+        env:
+          key: ${{ secrets_adi }}
+      - name: Git Log 1
+        run: |
+          git log
+      - name: Commit
+        run: |
+          git add -A .
+          git commit -m "CI: Cron Update"
+      - name: Git Log 2
+        run: |
+          git log
+      - name: Push
+        run: |
+          git push
