@@ -3,7 +3,7 @@ import random
 # import yaml
 # import os
 
-cronjobraw = "https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/.github/workflows/Profile3D.yml"
+cronjobraw = "https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/.github/workflows/profile-3d.yml"
 cron = requests.get(cronjobraw)
 croncontent = cron.text
 croncontent = croncontent.split("\n")
