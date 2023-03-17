@@ -30,17 +30,3 @@ jobs:
          plugin_people_types: followers
          
          
- gith:
-  runs-on: ubuntu-latest
-   permissions:
-      contents: write
-   steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: skyline.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_skyline: yes
-          plugin_skyline_frames: 60
-          plugin_skyline_quality: 0.5
-          plugin_skyline_compatibility: no
