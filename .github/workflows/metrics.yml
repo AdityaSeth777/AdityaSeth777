@@ -1,32 +1,91 @@
 name: Metrics
+
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  # push:
+  #   branches:
+  #     - main
+  schedule:
+    - cron: "30 0 * * *"
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    name: Main Workflow 
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout
+        uses: actions/checkout@v2
+      # - name: Most used (with details)
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics.plugin.languages.details.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_languages: yes
+      #     plugin_languages_details: bytes-size, percentage
+      #     plugin_languages_ignored: javascript
+      #     plugin_languages_colors: 0:#00ff00, 1:#ff0000, 2:#0000ff, 3:#ffff00, 4:#00ffff, 5:#ff00ff, 6:#ffffff, 7:#000000
+      #     plugin_languages_limit: 10
+      - name: Code Habits
+        uses: lowlighter/metrics@latest
         with:
+          filename: codehabits.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          
-  followers:
-   runs-on: ubuntu-latest
-   permissions:
-      contents: write
-   steps:
-      - uses: lowlighter/metrics@latest
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_habits: yes
+          plugin_habits_from: 5
+          plugin_habits_days: 30
+          plugin_habits_trim: yes
+          plugin_habits_charts: no
+          plugin_habits_facts: yes
+      - name: Followers
+        uses: lowlighter/metrics@latest
         with:
-         filename: metrics.plugin.people.followers.svg
-         token: ${{ secrets.FOLLOWER_KEY }}
-         base: ""
-         plugin_people: yes
-         plugin_people_types: followers
-         
-         
+          filename: followers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_people: yes
+          plugin_people_limit: 100
+          plugin_people_types: followers
+      - name: Recent Activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: no
+          plugin_activity_limit: 3
+          plugin_activity_load: 999
+          plugin_activity_days: 10
+          plugin_activity_visibility: all
+          plugin_activity_filter: all
+      # - name: License Activity
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: licenses.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_licenses: yes
+      #     repo: ${{ github.repository }}
+      #     plugin_licenses_setup: npm ci
+      - name: Achivements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+      - name: GitHub Skyline
+        uses: lowlighter/metrics@latest
+        with:
+          filename: skyline.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 0.5
+          plugin_skyline_compatibility: no
+     
