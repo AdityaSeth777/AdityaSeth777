@@ -35,7 +35,7 @@ jobs:
         run: |
           python cron.py
         env:
-          key: ${{ secrets_adi }}
+          key: ${{ secrets_adi.key }}
       - name: Git Log 1
         run: |
           git log
