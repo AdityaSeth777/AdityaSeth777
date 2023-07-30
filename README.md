@@ -1,5 +1,7 @@
+<img src="./banner.png">
+
 # Hola a todos ! 
-## Click here to viist my website -> [(www.adityaseth.me)](https://adityaseth.me)
+## Click here to visit my website -> [(www.adityaseth.me)](https://adityaseth.me)
 
 ![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=blue)
 </a>
@@ -138,5 +140,4 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=AdityaSeth777&theme=juicyfresh)](https://github.com/AdityaSeth777/github-profile-trophy)
-  
   
