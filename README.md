@@ -7,7 +7,6 @@
 </a>
 <a href="https://github.com/AdityaSeth777?tab=followers"><img src="https://img.shields.io/github/followers/AdityaSeth777?label=Followers&style=social" alt="GitHub Badge"></a>
 <a href ="https://metrics.lecoq.io/insights/AdityaSeth777"><img src="https://img.shields.io/badge/-informational?&label=GitHub+Metrics&style=social"/></a>
-
 </p>
 
 
@@ -16,7 +15,6 @@ Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
 Languages = ["C", "C++", "Python", "HTML", "CSS", "Kotlin"]
 OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
-
 ```
 <!-- <div align=center>
   
@@ -32,25 +30,14 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
   
 </div>
 
+
+
 ## 💻 My workspace
 
 ![](https://img.shields.io/badge/Windows-11_Pro-informational?style=flat&logo=Windows&logoColor=white&color=0083DC)
 ![](https://img.shields.io/badge/Intel-i5_12th_Gen-informational?style=flat&logo=intel&logoColor=white&color=0071C5)
 ![](https://img.shields.io/badge/RAM-8_GB-informational?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABmJLR0QA/wD/AP+gvaeTAAAAqUlEQVQokaWSsQ3CQAxF36GIMlQMAbkFaOgoGQCJIdiKIl3YIYxAg6gjSso0n8YJLhC5E1+yLJ39zpb84V9JCpK2lqOkpUX0tW/gQlJnuZZ0tKh9begPBq2BfeJyTQjhNkxrJd0lPTWtFmBmv5TABbgmTCwBCvdwSlwVPzFbxXTLqAZ4ADsPvhLADRCBDj7nWAEHYD4B98B5PIfBWQbwoLdc5SxX/bRcrt4PhcIRoFAWyAAAAABJRU5ErkJggg==&logoColor=white&color=GREEN)
 ![](https://img.shields.io/badge/NVIDIA-GEFORCE_GTX_1650-informational?style=flat&logo=nvidia&logoColor=white&color=76bc00)
-
-## 💻 My explored OS's :)
-
-![](https://img.shields.io/badge/Windows-10,_8.1,_7,_XP-informational?style=flat&logo=Windows&logoColor=white&color=0083DC)
-![](https://img.shields.io/badge/Gentoo-OS-informational?style=flat&logo=Gentoo&logoColor=white&color=0F94D2)
-![](https://img.shields.io/badge/Fedora-37-informational?style=flat&logo=Fedora&logoColor=white&color=51A2DA)
-![](https://img.shields.io/badge/Ubuntu-22.10_LTS-informational?style=flat&logo=Ubuntu&logoColor=white&color=E95420)
-![](https://img.shields.io/badge/Zorin_OS-16.2_Core-informational?style=flat&logo=Zorin&logoColor=white&color=15A6F0)
-![](https://img.shields.io/badge/Arch_Linux-2023.03.01-informational?style=flat&logo=ArchLinux&logoColor=white&color=0F94D2)
-![](https://img.shields.io/badge/Kali_Linux-2022.1-informational?style=flat&logo=KaliLinux&logoColor=white&color=517E98)
-![](https://img.shields.io/badge/Manjaro-22.0.5-informational?style=flat&logo=Manjaro&logoColor=white&color=35BFA4)
-![](https://img.shields.io/badge/Gentoo-OS-informational?style=flat&logo=Gnome&logoColor=white&color=0F94D2)
-![](https://img.shields.io/badge/Ubuntu_Unity-22.04.1-informational?style=flat&logo=Unity&logoColor=white&color=9005D5)
 
 ### Tech Stack:
 <div align=center>  
@@ -90,6 +77,27 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
   </div>
 
+## 💻 My explored OS's :)
+
+![](https://img.shields.io/badge/Windows-10,_8.1,_7,_XP-informational?style=flat&logo=Windows&logoColor=white&color=0083DC)
+![](https://img.shields.io/badge/Gentoo-OS-informational?style=flat&logo=Gentoo&logoColor=white&color=0F94D2)
+![](https://img.shields.io/badge/Fedora-37-informational?style=flat&logo=Fedora&logoColor=white&color=51A2DA)
+![](https://img.shields.io/badge/Ubuntu-22.10_LTS-informational?style=flat&logo=Ubuntu&logoColor=white&color=E95420)
+![](https://img.shields.io/badge/Zorin_OS-16.2_Core-informational?style=flat&logo=Zorin&logoColor=white&color=15A6F0)
+![](https://img.shields.io/badge/Arch_Linux-2023.03.01-informational?style=flat&logo=ArchLinux&logoColor=white&color=0F94D2)
+![](https://img.shields.io/badge/Kali_Linux-2022.1-informational?style=flat&logo=KaliLinux&logoColor=white&color=517E98)
+![](https://img.shields.io/badge/Manjaro-22.0.5-informational?style=flat&logo=Manjaro&logoColor=white&color=35BFA4)
+![](https://img.shields.io/badge/Gentoo-OS-informational?style=flat&logo=Gnome&logoColor=white&color=0F94D2)
+![](https://img.shields.io/badge/Ubuntu_Unity-22.04.1-informational?style=flat&logo=Unity&logoColor=white&color=9005D5)
+
+### LeetCode Stats :
+<div align="center">
+
+![https://https://leetcode.com/adityaseth_777/](https://stats.justsong.cn/api/leetcode/?username=adityaseth_777&theme=dark)
+
+</div>
+
+
 ### Statistics :  
 <div align="center">
    <a href="https://github.com/AdityaSeth777">
@@ -107,14 +115,6 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 </div>
 
-<div align=center>            
-   <a href="https://github.com/AdityaSeth777">
-   <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=e3d20c&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+!!!" />
-   <img width=100% height=100% align="center" alt="Followers" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/followers.svg" />
-   </a>
-</div>
-
-  
 <div align=center>
    <a href="https://github.com/AdityaSeth777" target="_blank">
    <img align=center width=100% src="profile-3d-contrib/profile-night-rainbow.svg" />
@@ -125,6 +125,20 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
    <img width=49% src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/achievements.svg" />
    
 </div>
+
+
+
+
+
+<div align=center>            
+   <a href="https://github.com/AdityaSeth777">
+   <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=e3d20c&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+!!!" />
+   <img width=100% height=100% align="center" alt="Followers" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/followers.svg" />
+   </a>
+</div>
+
+  
+
 
 <div align=center>
    <a href="https://github.com/AdityaSeth777">            
