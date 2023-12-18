@@ -1,7 +1,7 @@
 <img src="./banner.png">
 
 # Hola a todos ! 
-## Click here to visit my website -> [(www.adityaseth.me)](https://adityaseth.me)
+## Click here to visit my website -> [(www.adityaseth.in)](https://adityaseth.in)
 
 ![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=blue)
 </a>
