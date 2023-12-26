@@ -102,7 +102,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <div align="center">
    <a href="https://github.com/AdityaSeth777">
  
-   <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AdityaSeth777&show_icons=true&locale=en&langs_count=20&count_private=true&theme=radical&layout=compact&hide_border=false&bg_color=000000&border_color=808080" width=49% height=100%/>
+   <img src="https://github-readme-stats.vercel.app/api?username=AdityaSeth777&show_icons=true&rank_icon=github&theme=highcontrast&card_width=320" width=49% height=100%/>
    </a>
    <a href="https://github.com/AdityaSeth777">
    <img src="https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast&date_format=M%20j%5B%2C%20Y%5D" alt="AdityaSeth777" width=49% height=100%/>
