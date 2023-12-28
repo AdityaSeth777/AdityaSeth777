@@ -73,7 +73,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <a href="https://www.hackerrank.com/adityaseth_cse" alt="Aditya Seth | HackerRank"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-shadow-tal-revivo.png">
 <a href="https://www.cloudskillsboost.google/public_profiles/b8eb9de8-382a-4ff8-9088-7ea496aac45d" alt="Aditya Seth | Google Cloud Skills"><img src="https://img.icons8.com/fluency/48/000000/google-cloud.png">
 <a href="https://www.quora.com/profile/Aditya-Seth-133?ch=10&oid=1734427191&share=5335f444&srid=hzXNBO&target_type=user" alt="Aditya Seth | Quora"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-quora-is-a-question-and-answer-website-where-questions-are-asked-logo-shadow-tal-revivo.png"/>
-<a href="https://auth.geeksforgeeks.org/user/adityaseth_777/" alt="Aditya Seth | GeeksforGeeks"><img src="https://img.icons8.com/color/48/000000/GeeksforGeeks.png"/>
+<a href="https://auth.geeksforgeeks.org/user/adityaseth_777/" alt="Aditya Seth | GeeksforGeeks"><img src="https://img.icons8.com/color/48/000000/GeeksforGeeks.png"/></a>
 
 
   </div>
@@ -83,7 +83,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ![](https://img.shields.io/badge/Windows-10,_8.1,_7,_XP-informational?style=flat&logo=Windows&logoColor=white&color=0083DC)
 ![](https://img.shields.io/badge/Gentoo-OS-informational?style=flat&logo=Gentoo&logoColor=white&color=0F94D2)
 ![](https://img.shields.io/badge/Fedora-37-informational?style=flat&logo=Fedora&logoColor=white&color=51A2DA)
-![](https://img.shields.io/badge/Ubuntu-22.10_LTS-informational?style=flat&logo=Ubuntu&logoColor=white&color=E95420)
+![](https://img.shields.io/badge/Ubuntu-22.10,_22.04_LTS,_20.04_LTS-informational?style=flat&logo=Ubuntu&logoColor=white&color=E95420)
 ![](https://img.shields.io/badge/Zorin_OS-16.2_Core-informational?style=flat&logo=Zorin&logoColor=white&color=15A6F0)
 ![](https://img.shields.io/badge/Arch_Linux-2023.03.01-informational?style=flat&logo=ArchLinux&logoColor=white&color=0F94D2)
 ![](https://img.shields.io/badge/Kali_Linux-2022.1-informational?style=flat&logo=KaliLinux&logoColor=white&color=517E98)
@@ -94,7 +94,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ### LeetCode Stats :
 <div align="center">
 
-![https://https://leetcode.com/adityaseth_777/](https://stats.justsong.cn/api/leetcode/?username=adityaseth_777&theme=dark)
+<a href="https://leetcode.com/adityaseth_777/"><img src="https://leetcard.jacoblin.cool/adityaseth_777?ext=contest">
 
 </div>
 
