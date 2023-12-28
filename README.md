@@ -67,6 +67,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <a href="mailto:adityaseth.cse@gmail.com" alt="Aditya Seth | Gmail"><img src="https://img.icons8.com/fluent/48/000000/gmail.png">
 <a href="https://wa.me//+919903342634" alt="Aditya Seth | WhatsApp"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png"/>
 <a href="https://medium.com/@adityaseth777" alt="Aditya Seth | Medium"><img width="48" height="48" src="https://img.icons8.com/arcade/48/000000/medium-logo.png" alt="medium-logo"/>
+<a href="https://leetcode.com/adityaseth_777" alt="Aditya Seth | Medium"><img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo"/>
 <a href="https://twitter.com/AdityaS50607555" alt="Aditya Seth | Twitter"><img width="48" height="48" src="https://img.icons8.com/fluency/48/twitter.png" alt="twitter"/>
 <a href="https://discordapp.com/users/Aditya Seth#4753" alt="Aditya Seth | Discord"><img src="https://img.icons8.com/plasticine/50/000000/discord-logo.png">
 <a href="https://www.hackerrank.com/adityaseth_cse" alt="Aditya Seth | HackerRank"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-shadow-tal-revivo.png">
@@ -111,8 +112,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 </div>
  
 <div align=center> 
-<p><img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=12&exclude_repo=adityaseth.github.io&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
-
+<p><img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=15&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
 </div>
 
 <div align=center>
