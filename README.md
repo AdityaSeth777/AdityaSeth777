@@ -1,14 +1,15 @@
 <img src="./banner.png">
 
-# Hola a todos ! 
+# Hola a todos !
+
 ## Click here to visit my website -> [(www.adityaseth.in)](https://adityaseth.in)
 
 ![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=blue)
 </a>
 <a href="https://github.com/AdityaSeth777?tab=followers"><img src="https://img.shields.io/github/followers/AdityaSeth777?label=Followers&style=social" alt="GitHub Badge"></a>
 <a href ="https://metrics.lecoq.io/insights/AdityaSeth777"><img src="https://img.shields.io/badge/-informational?&label=GitHub+Metrics&style=social"/></a>
-</p>
 
+</p>
 
 ```python
 Name = "Aditya Seth"
@@ -16,21 +17,19 @@ Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Ph
 Languages = ["C", "C++", "Python", "HTML", "CSS", "Kotlin"]
 OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
 ```
+
 <!-- <div align=center>
-  
+
 [![coding speed x 1000](/images/187495.gif)](https://github.com/AdityaSeth777)
 </div> !-->
 
-  
-### Wanna listen to what I am listening to ? :)  
+### Wanna listen to what I am listening to ? :)
 
 <div align=center> 
   
 ![https://spotify-github-profile.vercel.app/api/view.svg?uid=setha4195&redirect=true](https://spotify-github-profile.vercel.app/api/view.svg?uid=setha4195&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)
   
 </div>
-
-
 
 ## 💻 My workspace
 
@@ -40,7 +39,8 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ![](https://img.shields.io/badge/NVIDIA-GEFORCE_GTX_1650-informational?style=flat&logo=nvidia&logoColor=white&color=76bc00)
 
 ### Tech Stack:
-<div align=center>  
+
+<div align=center>
 
 <img src="https://img.icons8.com/color/48/000000/c-programming.png">
 <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png">
@@ -55,11 +55,10 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <img src="https://img.icons8.com/color/48/000000/adobe-creative-cloud--v1.png"/>
 <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
 
-
 </div>
 
-
 ### Connect with me:
+
 <div align=center>
 
 <a href="https://adityaseth.in/linkedin" alt="Aditya Seth | LinkedIn"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png" ></a> &nbsp;
@@ -73,7 +72,6 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <a href="https://adityaseth.in/gcp-directory" alt="Aditya Seth | Google Cloud Skills"><img src="https://img.icons8.com/fluency/48/000000/google-cloud.png">
 <a href="https://www.quora.com/profile/Aditya-Seth-133?ch=10&oid=1734427191&share=5335f444&srid=hzXNBO&target_type=user" alt="Aditya Seth | Quora"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-quora-is-a-question-and-answer-website-where-questions-are-asked-logo-shadow-tal-revivo.png"/>
 <a href="https://auth.geeksforgeeks.org/user/adityaseth_777/" alt="Aditya Seth | GeeksforGeeks"><img src="https://img.icons8.com/color/48/000000/GeeksforGeeks.png"/></a>
-
 
   </div>
 
@@ -91,14 +89,15 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ![](https://img.shields.io/badge/Ubuntu_Unity-22.04.1-informational?style=flat&logo=Unity&logoColor=white&color=9005D5)
 
 ### LeetCode Stats :
+
 <div align="center">
 
-<a href="https://leetcode.com/adityaseth_777/"><img src="https://leetcard.jacoblin.cool/adityaseth_777?ext=contest">
+<a href="https://leetcode.com/Aditya4195/"><img src="https://leetcard.jacoblin.cool/Aditya4195?ext=contest">
 
 </div>
 
+### Statistics :
 
-### Statistics :  
 <div align="center">
    <a href="https://github.com/AdityaSeth777">
  
@@ -125,19 +124,12 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
    
 </div>
 
-
-
-
-
 <div align=center>            
    <a href="https://github.com/AdityaSeth777">
    <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=e3d20c&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+!!!" />
    <img width=100% height=100% align="center" alt="Followers" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/followers.svg" />
    </a>
 </div>
-
-  
-
 
 <div align=center>
    <a href="https://github.com/AdityaSeth777">            
@@ -153,4 +145,3 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 !-->
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=AdityaSeth777&theme=juicyfresh)](https://github.com/AdityaSeth777/github-profile-trophy)
-  
