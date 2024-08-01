@@ -92,7 +92,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 <div align="center">
 
-<a href="https://leetcode.com/Aditya4195/"><img src="https://leetcard.jacoblin.cool/Aditya4195?ext=contest">
+<a href="https://leetcode.com/AdityaSeth777/"><img src="https://leetcard.jacoblin.cool/AdityaSeth777?ext=contest">
 
 </div>
 
