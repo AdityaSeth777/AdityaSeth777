@@ -94,7 +94,9 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 <div align="center">
 
-<a href="https://leetcode.com/AdityaSeth777/"><img src="https://leetcard.jacoblin.cool/AdityaSeth777?ext=contest">
+<a href="https://leetcode.com/AdityaSethX/"><img src="https://leetcard.jacoblin.cool/AdityaSethX?ext=contest">
+
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=AdityaSethX)
 
 </div>
 
