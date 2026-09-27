@@ -1,0 +1,83 @@
+name: Guestbook Stamp
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: bento-tiles
+  cancel-in-progress: false
+
+jobs:
+  stamp:
+    if: contains(github.event.issue.labels.*.name, 'guestbook')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Add stamp
+        env:
+          STAMP_USER: ${{ github.event.issue.user.login }}
+        run: |
+          python - <<'EOF'
+          import json
+          import os
+          import datetime
+
+          path = "data/guestbook.json"
+          with open(path) as f:
+              entries = json.load(f)
+
+          entries.append({
+              "user": os.environ["STAMP_USER"],
+              "date": datetime.date.today().isoformat(),
+          })
+          entries = entries[-100:]  # cap growth
+
+          with open(path, "w") as f:
+              json.dump(entries, f, indent=2)
+          EOF
+
+      - name: Regenerate guestbook tile
+        working-directory: scripts
+        run: |
+          python generate_guestbook.py
+          mv guestbook-dark.svg guestbook-light.svg ..
+
+      - name: Commit
+        env:
+          STAMP_USER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/guestbook.json guestbook-dark.svg guestbook-light.svg
+          git commit -m "Stamp passport for ${STAMP_USER}"
+          git pull --rebase origin main
+          git push
+
+      - name: Thank the visitor and close
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: "Thanks for stopping by — your stamp is on the passport now.",
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed",
+            });

@@ -4,24 +4,21 @@
 
 ## Click here to visit my website -> [(www.adityaseth.in)](https://adityaseth.in)
 
-![ ](https://komarev.com/ghpvc/?username=AdityaSeth777&color=blue)
-</a>
 <a href="https://github.com/AdityaSeth777?tab=followers"><img src="https://img.shields.io/github/followers/AdityaSeth777?label=Followers&style=social" alt="GitHub Badge"></a>
-<a href ="https://metrics.lecoq.io/insights/AdityaSeth777"><img src="https://img.shields.io/badge/-informational?&label=GitHub+Metrics&style=social"/></a>
 
 </p>
 
-```python
-Name = "Aditya Seth"
-Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
-Languages = ["C", "C++", "Python", "HTML", "CSS", "Kotlin"]
-OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="bento-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="bento-light.svg">
+  <img alt="Aditya Seth — profile summary" src="bento-dark.svg" width="100%">
+</picture>
 
-<!-- <div align=center>
-
-[![coding speed x 1000](/images/187495.gif)](https://github.com/AdityaSeth777)
-</div> !-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-snake.svg">
+  <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-snake.svg" width="100%">
+</picture>
 
 ### Wanna listen to what I am listening to ? :)
 
@@ -33,12 +30,56 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
   
 </div>
 
+## Life outside the terminal
+
+<table>
+<tr>
+<td width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="photos-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="photos-light.svg">
+  <img alt="travel photos" src="photos-dark.svg" width="100%">
+</picture>
+</td>
+<td width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="travel-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="travel-light.svg">
+  <img alt="flight log and distance traveled" src="travel-dark.svg" width="100%">
+</picture>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="now-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="now-light.svg">
+  <img alt="what I'm doing right now" src="now-dark.svg" width="100%">
+</picture>
+</td>
+<td width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="weather-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="weather-light.svg">
+  <img alt="weather and golden hour countdown" src="weather-dark.svg" width="100%">
+</picture>
+</td>
+</tr>
+</table>
+
+*Travel photos are on their way — drop JPEG/PNG/HEIC files into [`photos/travel/`](photos/travel/) and they'll show up here automatically on the next scheduled run. Add trips to [`data/trips.yml`](data/trips.yml) to plot the flight log.*
+
 ## 💻 My workspace
+
+<details>
+<summary>Hardware</summary>
 
 ![](https://img.shields.io/badge/Windows-11_Pro-informational?style=flat&logo=Windows&logoColor=white&color=0083DC)
 ![](https://img.shields.io/badge/Intel-i5_12th_Gen-informational?style=flat&logo=intel&logoColor=white&color=0071C5)
 ![](https://img.shields.io/badge/RAM-8_GB-informational?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABmJLR0QA/wD/AP+gvaeTAAAAqUlEQVQokaWSsQ3CQAxF36GIMlQMAbkFaOgoGQCJIdiKIl3YIYxAg6gjSso0n8YJLhC5E1+yLJ39zpb84V9JCpK2lqOkpUX0tW/gQlJnuZZ0tKh9begPBq2BfeJyTQjhNkxrJd0lPTWtFmBmv5TABbgmTCwBCvdwSlwVPzFbxXTLqAZ4ADsPvhLADRCBDj7nWAEHYD4B98B5PIfBWQbwoLdc5SxX/bRcrt4PhcIRoFAWyAAAAABJRU5ErkJggg==&logoColor=white&color=GREEN)
 ![](https://img.shields.io/badge/NVIDIA-GEFORCE_GTX_1650-informational?style=flat&logo=nvidia&logoColor=white&color=76bc00)
+
+</details>
 
 ### Tech Stack:
 
@@ -58,6 +99,12 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
 
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="histogram-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="histogram-light.svg">
+  <img alt="language mix" src="histogram-dark.svg" width="460">
+</picture>
 
 ### Connect with me:
 
@@ -79,6 +126,9 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 ## 💻 My explored OS's :)
 
+<details>
+<summary>Show the distro-hopping history</summary>
+
 ![](https://img.shields.io/badge/Windows-10,_8.1,_7,_XP-informational?style=flat&logo=Windows&logoColor=white&color=0083DC)
 ![](https://img.shields.io/badge/Gentoo-OS-informational?style=flat&logo=Gentoo&logoColor=white&color=0F94D2)
 ![](https://img.shields.io/badge/Fedora-37-informational?style=flat&logo=Fedora&logoColor=white&color=51A2DA)
@@ -89,6 +139,8 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ![](https://img.shields.io/badge/Manjaro-22.0.5-informational?style=flat&logo=Manjaro&logoColor=white&color=35BFA4)
 ![](https://img.shields.io/badge/Gentoo-OS-informational?style=flat&logo=Gnome&logoColor=white&color=0F94D2)
 ![](https://img.shields.io/badge/Ubuntu_Unity-22.04.1-informational?style=flat&logo=Unity&logoColor=white&color=9005D5)
+
+</details>
 
 ### LeetCode Stats :
 
@@ -104,17 +156,30 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 <div align="center">
    <a href="https://github.com/AdityaSeth777">
- 
-   <img src="https://github-readme-stats.vercel.app/api?username=AdityaSeth777&show_icons=true&rank_icon=github&theme=highcontrast&card_width=320" width=49% height=100%/>
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AdityaSeth777&show_icons=true&rank_icon=github&theme=github_dark&card_width=320">
+     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=AdityaSeth777&show_icons=true&rank_icon=github&theme=default&card_width=320">
+     <img src="https://github-readme-stats.vercel.app/api?username=AdityaSeth777&show_icons=true&rank_icon=github&theme=github_dark&card_width=320" width=49% height=100%/>
+   </picture>
    </a>
    <a href="https://github.com/AdityaSeth777">
-   <img src="https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=highcontrast&date_format=M%20j%5B%2C%20Y%5D" alt="AdityaSeth777" width=49% height=100%/>
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=github-dark-blue&date_format=M%20j%5B%2C%20Y%5D">
+     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=default&date_format=M%20j%5B%2C%20Y%5D">
+     <img src="https://github-readme-streak-stats.herokuapp.com?user=AdityaSeth777&theme=github-dark-blue&date_format=M%20j%5B%2C%20Y%5D" alt="AdityaSeth777" width=49% height=100%/>
+   </picture>
    <br/>
    </a>
 </div>
  
 <div align=center> 
-<p><img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=15&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=15&show_icons=true&theme=github_dark&locale=en&layout=compact">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=15&show_icons=true&theme=default&locale=en&layout=compact">
+  <img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=15&show_icons=true&theme=github_dark&locale=en&layout=compact" alt="AdityaSeth777" />
+</picture>
+</p>
 </div>
 
 <div align=center>
@@ -135,11 +200,30 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
    </a>
 </div>
 
-<div align=center>
-   <a href="https://github.com/AdityaSeth777">            
-   <img align="center" alt="Coding Habits" width=100% src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/codehabits.svg" />
-   </a>
-</div>
+## Leave a mark
+
+<table>
+<tr>
+<td width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="guestbook-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="guestbook-light.svg">
+  <img alt="guestbook passport stamps" src="guestbook-dark.svg" width="100%">
+</picture>
+
+[Stamp the passport →](https://github.com/AdityaSeth777/AdityaSeth777/issues/new?labels=guestbook&title=Guestbook)
+</td>
+<td width="50%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="poll-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="poll-light.svg">
+  <img alt="vote for my next destination" src="poll-dark.svg" width="100%">
+</picture>
+
+[Vote for my next trip →](https://github.com/AdityaSeth777/AdityaSeth777/issues/new?labels=vote&title=vote%3A+)
+</td>
+</tr>
+</table>
 
 [![@adityaseth777's Holopin board](https://holopin.me/adityaseth777)](https://holopin.io/@adityaseth777)
 

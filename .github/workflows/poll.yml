@@ -1,0 +1,86 @@
+name: Destination Poll
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: bento-tiles
+  cancel-in-progress: false
+
+jobs:
+  vote:
+    if: contains(github.event.issue.labels.*.name, 'vote')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Tally vote
+        id: tally
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python - <<'EOF'
+          import json
+          import os
+          import re
+
+          title = os.environ["ISSUE_TITLE"]
+          m = re.search(r"vote\s*:\s*(.+)", title, re.I)
+          city = (m.group(1) if m else title).strip()[:40]
+          city = re.sub(r"[^\w\s\-]", "", city).strip() or "Unknown"
+
+          path = "data/votes.json"
+          with open(path) as f:
+              votes = json.load(f)
+
+          votes[city] = votes.get(city, 0) + 1
+
+          with open(path, "w") as f:
+              json.dump(votes, f, indent=2)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"city={city}\ncount={votes[city]}\n")
+          EOF
+
+      - name: Regenerate poll tile
+        working-directory: scripts
+        run: |
+          python generate_poll.py
+          mv poll-dark.svg poll-light.svg ..
+
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/votes.json poll-dark.svg poll-light.svg
+          git commit -m "Register vote for ${{ steps.tally.outputs.city }}"
+          git pull --rebase origin main
+          git push
+
+      - name: Confirm and close
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Counted your vote for **${{ steps.tally.outputs.city }}** (now at ${{ steps.tally.outputs.count }}).`,
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed",
+            });

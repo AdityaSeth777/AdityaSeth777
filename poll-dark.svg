@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240">
+  
+  <defs>
+    <filter id="bake-blur-dark" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+    <filter id="grain-dark">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+    <clipPath id="page-clip-dark">
+      <rect x="0" y="0" width="460" height="240" rx="20"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#page-clip-dark)">
+    <rect x="0" y="0" width="460" height="240" fill="#0E1116"/>
+    <g filter="url(#bake-blur-dark)"><circle cx="69.0" cy="48.0" r="128.8" fill="#E8A04A" opacity="0.32"/><circle cx="345.0" cy="72.0" r="128.8" fill="#2F6F73" opacity="0.32"/><circle cx="207.0" cy="192.0" r="128.8" fill="#3B3F6B" opacity="0.32"/></g>
+    <rect x="0" y="0" width="460" height="240" filter="url(#grain-dark)" opacity="0.5"/>
+  </g>
+
+  <foreignObject x="0" y="0" width="460" height="240">
+    
+    <div xmlns="http://www.w3.org/1999/xhtml" class="wrap">
+      <style>
+        
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    .tile {
+      background: rgba(255,244,230,0.06);
+      border: 1px solid rgba(255,236,210,0.14);
+      border-radius: 16px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.18);
+      padding: 14px 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      color: #EDE6DA;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .label {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 11px;
+      color: #9A958C;
+    }
+    .value { font-size: 22px; font-weight: 600; margin-top: 4px; }
+    .value.accent { color: #E8A04A; }
+    .value.accent2 { color: #6FB7C9; }
+    .pill {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 11px;
+      color: #6FB7C9;
+      background: color-mix(in srgb, #6FB7C9 16%, transparent);
+      border: 1px solid color-mix(in srgb, #6FB7C9 40%, transparent);
+      border-radius: 999px;
+      padding: 3px 10px;
+    }
+    .safelight {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #D7263D;
+      box-shadow: 0 0 8px #D7263D;
+      display: inline-block;
+    }
+
+        .wrap { width: 460px; height: 240px; padding: 18px; }
+        .tile { width: 100%; height: 100%; align-items: flex-start; }
+        .flap-row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+        .flap-board { display: flex; gap: 2px; }
+        .flap {
+          font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 11px; font-weight: 700;
+          background: rgba(0,0,0,0.35);
+          color: #EDE6DA;
+          border-radius: 3px;
+          padding: 3px 4px;
+          min-width: 8px;
+          text-align: center;
+        }
+        .flap-track { flex: 1; height: 8px; background: rgba(128,128,128,0.15); border-radius: 4px; overflow: hidden; }
+        .flap-fill { height: 100%; background: #E8A04A; }
+        .flap-count { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 11px; color: #9A958C; width: 20px; text-align: right; }
+        .placeholder .value { font-size: 18px; font-weight: 600; margin-top: 6px; }
+        .placeholder .sub { font-size: 12px; color: #9A958C; margin-top: 6px; max-width: 32ch; }
+      </style>
+      
+        <div class="tile placeholder">
+          <div class="label">next destination &#8212; vote board</div>
+          <div class="value">No votes yet</div>
+          <div class="sub">Open an issue titled "vote: &lt;city&gt;" labeled "vote" to cast one.</div>
+        </div>
+        
+    </div>
+    
+  </foreignObject>
+</svg>

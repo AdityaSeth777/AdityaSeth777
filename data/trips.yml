@@ -1,0 +1,9 @@
+# Add your trips here and the travel tile picks them up on the next scheduled run.
+# lat/lon can be looked up from any map — city center is fine.
+# Example:
+# - city: Kyoto
+#   country: Japan
+#   lat: 35.0116
+#   lon: 135.7681
+#   date: "2026-03-01"
+trips: []

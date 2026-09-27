@@ -1,0 +1,26 @@
+# Authoritative skills list (grouped), supplied directly rather than scraped —
+# the portfolio's "WHAT I DO" section only has prose summaries, not the full tag list.
+# Edit this by hand when your stack changes; scripts/generate_bento.py reads it.
+categories:
+  - name: Core Engineering
+    skills: [C/C++, Java, Python, Data Structures, Algorithms, System Design]
+  - name: Backend Frameworks
+    skills: [Spring Boot, FastAPI, Django, NestJS, Phoenix (Elixir), ASP.NET Core, Hapi.js]
+  - name: Frontend & Web
+    skills: [Next.js, React, SvelteKit, TypeScript, JavaScript, HTML / CSS]
+  - name: ML & AI Systems
+    skills: [PyTorch, TensorFlow, OpenCV, XGBoost, GenAI / RAG, YOLOv8, AWS SageMaker, Ollama]
+  - name: APIs & Communication
+    skills: [REST, GraphQL, gRPC, WebSockets, FHIR R4]
+  - name: Distributed Infrastructure
+    skills: [Kubernetes, Docker, Terraform, Helm, Istio, Envoy Proxy, Kafka]
+  - name: CI/CD & Automation
+    skills: [GitHub Actions, GitLab CI, ArgoCD, Spinnaker, Pulumi, Crossplane, Bicep]
+  - name: Big Data & Streaming
+    skills: [Apache Kafka, Apache Pulsar, Apache Flink, Apache Druid, Google Dataflow]
+  - name: Cloud & Observability
+    skills: [AWS, GCP, Azure, Prometheus, Grafana, ELK Stack, OpenTelemetry, Jaeger]
+  - name: Security & Serverless
+    skills: [OAuth 2.0, Keycloak, Vault, Falco, AWS Lambda, Cloudflare Workers]
+  - name: Databases
+    skills: [PostgreSQL, MySQL, Redis, CockroachDB, Cassandra, Neo4j, ChromaDB, Elasticsearch]
