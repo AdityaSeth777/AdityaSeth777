@@ -196,8 +196,8 @@ Real-time engagement analytics, dual-tier pipeline (browser + FastAPI GPU server
 <a href="https://auth.geeksforgeeks.org/user/adityaseth_777/" alt="Aditya Seth | GeeksforGeeks"><img src="https://img.icons8.com/color/48/000000/GeeksforGeeks.png"/></a> &nbsp;
 <a href="https://youtube.com/@adityaseth777" alt="Aditya Seth | YouTube"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a> &nbsp;
 <a href="https://adityaseth.in/blog" alt="Aditya Seth | Blog"><img src="https://img.icons8.com/ios-filled/50/000000/blog.png"/></a> &nbsp;
-<a href="REPLACE_WITH_RIOT_ID_LOOKUP_URL" alt="Aditya Seth | Riot ID: REPLACE_RIOT_ID"><img src="https://img.icons8.com/color/48/000000/riot-games.png"/></a> &nbsp;
-<a href="REPLACE_WITH_STEAM_PROFILE_URL" alt="Aditya Seth | Steam"><img src="https://img.icons8.com/fluency/48/000000/steam.png"/></a>
+<a href="https://tracker.gg/valorant/profile/riot/BabuWhere%23dimun/overview" alt="Aditya Seth | Riot ID: BabuWhere#dimun"><img src="https://img.icons8.com/color/48/000000/riot-games.png"/></a> &nbsp;
+<a href="https://steamcommunity.com/id/adityaseth777" alt="Aditya Seth | Steam"><img src="https://img.icons8.com/fluency/48/000000/steam.png"/></a>
 
   </div>
 
