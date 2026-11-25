@@ -347,18 +347,10 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 
 </div>
 
-### 💡 Coding habits and activity
-
-<div align=center>
-<img width="100%" src="./codehabits.svg" alt="Coding habits" />
-</div>
-
-### ⭐ Stargazers, topics and notable work
+### ⭐ Stargazers and dependency licenses
 
 <div align=center>
 <img width="49%" src="./stargazers.svg" alt="Stargazers" />
-<img width="49%" src="./topics.svg" alt="Starred topics" />
-<img width="49%" src="./notable.svg" alt="Notable contributions" />
 <img width="49%" src="./licenses.svg" alt="Repository licenses" />
 </div>
 
@@ -366,8 +358,6 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 
 <div align=center>
 <img width="100%" src="./overview.svg" alt="Overview" />
-<img width="49%" src="./activity.svg" alt="Recent activity" />
-<img width="49%" src="./skyline.svg" alt="Contribution skyline" />
 </div>
 
 <div align="center">
@@ -392,7 +382,6 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 </div> 
 <div align=center>
    <a href="https://github.com/AdityaSeth777">
-   <img width=49% src="./achievements.svg" />
    
 </div>
 
