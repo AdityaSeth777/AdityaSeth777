@@ -27,9 +27,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 <div align=center> 
   
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=setha4195&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=setha4195&redirect=true)
-
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=setha4195)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=setha4195&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=setha4195&redirect=true)
   
 </div>
 
@@ -114,7 +112,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 </div>
  
 <div align=center> 
-<p><img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=15&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=AdityaSeth777&langs_count=15&show_icons=true&theme=highcontrast&locale=en&layout=compact" alt="AdityaSeth777" /></p>
 </div>
 
 <div align=center>
