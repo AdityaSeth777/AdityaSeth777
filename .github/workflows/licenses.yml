@@ -1,0 +1,33 @@
+name: Repository Licenses
+
+# Split out of the Metrics workflow: this step runs `npm ci` over the target
+# repo's full dependency tree and takes ~16 minutes, against ~4 minutes for all
+# the other cards combined. Dependency licenses barely move week to week, so it
+# runs weekly rather than daily.
+
+on:
+  schedule:
+    - cron: "40 2 * * 0"
+  workflow_dispatch:
+
+jobs:
+  licenses:
+    runs-on: ubuntu-latest
+    name: Repository licenses
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Repository licenses
+        uses: lowlighter/metrics@v3.34
+        continue-on-error: true
+        with:
+          filename: licenses.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          template: repository
+          repo: ShieldK8s
+          plugin_licenses: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+          plugin_licenses_legal: yes
+          plugin_licenses_ratio: yes

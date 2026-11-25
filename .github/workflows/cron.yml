@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.METRICS_TOKEN }}
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: "3.11"
       - name: Install Requests
         run: |
           pip install requests
@@ -36,16 +36,20 @@ jobs:
           python cron.py
         env:
           key: ${{ secrets.key }}
-      - name: Git Log 1
-        run: |
-          git log
       - name: Commit
         run: |
           git add -A .
+          git diff --staged --quiet && echo "nothing to commit" && exit 0
           git commit -m "Don't check my activity. My main commits are private."
-      - name: Git Log 2
-        run: |
-          git log
       - name: Push
+        # Other scheduled workflows commit to this same branch, so the ref can
+        # move between the pull above and this push. Rebase and retry instead
+        # of failing the run.
         run: |
-          git push
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push rejected, rebasing (attempt $i)"
+            git pull --rebase --autostash || exit 1
+            sleep $((i * 3))
+          done
+          echo "push still failing after 5 attempts" && exit 1
