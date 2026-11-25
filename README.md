@@ -159,7 +159,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <table>
 <tr>
 <td width="33%" valign="top">
-<a href="https://github.com/AdityaSeth777/ShieldK8s"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:326CE5,100:00C9A7&height=80&section=header&text=ShieldK8s&fontSize=30&fontColor=ffffff&fontAlignY=55" alt="ShieldK8s" /></a>
+<a href="https://github.com/AdityaSeth777/ShieldK8s"><img width="100%" src="images/projects/shieldk8s.png" alt="ShieldK8s" /></a>
 <br/><a href="https://github.com/AdityaSeth777/ShieldK8s"><b>ShieldK8s</b></a>
 <br/><sub>Kubernetes-native security framework: runtime threat monitoring, RBAC enforcement, anomaly detection and CVE scanning, with eBPF syscall tracing for zero-overhead visibility.</sub>
 <br/><br/><a href="https://github.com/AdityaSeth777/ShieldK8s"><img src="https://img.shields.io/github/stars/AdityaSeth777/ShieldK8s?style=flat&color=FFC107&labelColor=1c1c1c" alt="stars" /></a>
@@ -167,7 +167,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <br/><img src="https://skillicons.dev/icons?i=kubernetes,docker,nextjs,prometheus,grafana,elasticsearch" height="28" />
 </td>
 <td width="33%" valign="top">
-<a href="https://github.com/AdityaSeth777/WorkX"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:11998e,100:38ef7d&height=80&section=header&text=WorkX&fontSize=30&fontColor=ffffff&fontAlignY=55" alt="WorkX" /></a>
+<a href="https://github.com/AdityaSeth777/WorkX"><img width="100%" src="images/projects/workx.jpg" alt="WorkX" /></a>
 <br/><a href="https://github.com/AdityaSeth777/WorkX"><b>WorkX</b></a>
 <br/><sub>Freelancer-to-business job portal on Django REST + React, with Elasticsearch DSL full-text matching, dual auth (Google Sign-In + JWT) and Firebase, on AWS Elastic Beanstalk.</sub>
 <br/><br/><a href="https://github.com/AdityaSeth777/WorkX"><img src="https://img.shields.io/github/stars/AdityaSeth777/WorkX?style=flat&color=FFC107&labelColor=1c1c1c" alt="stars" /></a>
@@ -175,7 +175,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <br/><img src="https://skillicons.dev/icons?i=django,react,elasticsearch,firebase,postgresql,aws" height="28" />
 </td>
 <td width="33%" valign="top">
-<a href="https://github.com/AdityaSeth777/Audio-SpectraCLI"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:8E2DE2,100:4A00E0&height=80&section=header&text=Audio-SpectraCLI&fontSize=24&fontColor=ffffff&fontAlignY=55" alt="Audio-SpectraCLI" /></a>
+<a href="https://github.com/AdityaSeth777/Audio-SpectraCLI"><img width="100%" src="images/projects/audio-spectracli.jpg" alt="Audio-SpectraCLI" /></a>
 <br/><a href="https://github.com/AdityaSeth777/Audio-SpectraCLI"><b>Audio-SpectraCLI</b></a>
 <br/><sub>Real-time audio spectrum analyzer: FFT visualisation of streaming microphone capture. Published on <a href="https://pypi.org/project/Audio-SpectraCLI/">PyPI</a> and as a <a href="https://marketplace.visualstudio.com/items?itemName=AdityaSeth777.audio-spectracli-extension">VS Code extension</a>.</sub>
 <br/><br/><a href="https://github.com/AdityaSeth777/Audio-SpectraCLI"><img src="https://img.shields.io/github/stars/AdityaSeth777/Audio-SpectraCLI?style=flat&color=FFC107&labelColor=1c1c1c" alt="stars" /></a>
@@ -192,19 +192,21 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <table>
 <tr>
 <td width="33%" valign="top">
-<a href="https://adityaseth.in/projects/aiccandcognen/cognen"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=80&section=header&text=CognEn&fontSize=30&fontColor=ffffff&fontAlignY=55" alt="CognEn" /></a>
+<a href="https://adityaseth.in/projects/aiccandcognen/cognen"><img width="100%" src="images/projects/cognen.png" alt="CognEn" /></a>
 <br/><a href="https://adityaseth.in/projects/aiccandcognen/cognen"><b>CognEn</b></a>
-<br/><sub>Real-time cognitive engagement analytics built at IIT Roorkee. Chrome MV3 client (YOLOv8-nano ONNX + MediaPipe) plus a FastAPI GPU server with ByteTrack tracking.</sub>
-<br/><br/><img src="https://img.shields.io/badge/F1-0.97-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="F1" />
-<img src="https://img.shields.io/badge/dataset-42,600_windows-informational?style=flat&color=455A64&labelColor=1c1c1c" alt="dataset" />
-<img src="https://img.shields.io/badge/stream-5_Hz-informational?style=flat&color=455A64&labelColor=1c1c1c" alt="rate" />
+<br/><sub>Cognitive engagement analyzer built at IIT Roorkee. Chrome MV3 client (YOLOv8-nano ONNX + MediaPipe) plus a FastAPI server for multi-person CCTV.</sub>
+<br/><br/><img src="https://img.shields.io/badge/behaviour_accuracy-86.5%25-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="accuracy" />
+<img src="https://img.shields.io/badge/seat_occupancy-96.3%25-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="occupancy" />
+<img src="https://img.shields.io/badge/1D--CNN_P95-%3C0.1_ms-informational?style=flat&color=455A64&labelColor=1c1c1c" alt="p95" />
+<img src="https://img.shields.io/badge/sequences-55,100-informational?style=flat&color=455A64&labelColor=1c1c1c" alt="dataset" />
 <br/><img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,nextjs" height="28" />
 </td>
 <td width="33%" valign="top">
-<a href="https://adityaseth.in/projects/aiccandcognen/aicc-sof"><img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:f12711,100:f5af19&height=80&section=header&text=AICC-SOF&fontSize=28&fontColor=ffffff&fontAlignY=55" alt="AICC-SOF" /></a>
+<a href="https://adityaseth.in/projects/aiccandcognen/aicc-sof"><img width="100%" src="images/projects/aicc-sof.png" alt="AICC-SOF" /></a>
 <br/><a href="https://adityaseth.in/projects/aiccandcognen/aicc-sof"><b>AICC-SOF</b></a>
-<br/><sub>Self-hosted AI call center over Asterisk + SIP with local STT/LLM/TTS, XGBoost lead scoring and deterministic A/B script testing.</sub>
-<br/><br/><img src="https://img.shields.io/badge/external_API_cost-%240-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="cost" />
+<br/><sub>AI voice call center for university admissions, self-hosted on a Mac Mini M4. Local STT/LLM/TTS over FastAPI + LiveKit + Asterisk, with zero AI API spend.</sub>
+<br/><br/><img src="https://img.shields.io/badge/voice_latency-~540_ms-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="latency" />
+<img src="https://img.shields.io/badge/call_cost-%3C%E2%82%B91%2Fmin-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="cost" />
 <img src="https://img.shields.io/badge/Prometheus-14_metrics-informational?style=flat&color=E6522C&labelColor=1c1c1c" alt="metrics" />
 <img src="https://img.shields.io/badge/Grafana-9_panels-informational?style=flat&color=F46800&labelColor=1c1c1c" alt="panels" />
 <br/><img src="https://skillicons.dev/icons?i=python,fastapi,prometheus,grafana" height="28" />
