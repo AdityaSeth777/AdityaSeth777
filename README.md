@@ -43,12 +43,12 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
 
 | Role | Company | Duration |
 |---|---|---|
-| 🚀 Software Engineer II (L3), Data & AI | Red Hat, IBM  Pune | Oct 2026 – Present |
-| 🧠 Software, Strategy & AI Initiatives Lead | Techno India Group | Aug 2025 – Oct 2026 |
-| 🔬 Research Engineer | iHUB DivyaSampark, IIT Roorkee | Oct 2025 – Oct 2026 |
-| 💻 SWE Intern | Techno Billion AI | Mar 2025 – Sep 2025 |
-| 🛠️ SDE Intern | Oriens InfoTech Pvt. Ltd. (Remote) | Apr 2024 – Jan 2025 |
-| 🌐 Freelance Developer | Remote  US Clients | Oct 2022 – Sep 2024 |
+| Software Engineer II (L3), Data & AI | Red Hat, IBM, Pune | Oct 2026 – Present |
+| Software, Strategy & AI Initiatives Lead | Techno India Group | Aug 2025 – Oct 2026 |
+| Research Engineer | iHUB DivyaSampark, IIT Roorkee | Oct 2025 – Oct 2026 |
+| SWE Intern | Techno Billion AI | Mar 2025 – Sep 2025 |
+| SDE Intern | Oriens InfoTech Pvt. Ltd. (Remote) | Apr 2024 – Jan 2025 |
+| Freelance Developer | Remote, US clients | Oct 2022 – Sep 2024 |
 
 ### Wanna listen to what I am listening to ? :)
 
@@ -62,10 +62,10 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
 
 | Machine | Specs |
 |---|---|
-| 🖥️ **Desktop** | ![](https://img.shields.io/badge/Windows-11_Pro-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMy40IDkuOCAydjkuNUgwem0xMSAxMC43VjIgLjVMMjQgMHYxMS41SDExek0wIDEyLjZoOS44VjIyTDAgMjAuN3ptMTEgMGgxM1YyNGwtMTMtMS44eiIvPjwvc3ZnPg%3D%3D&logoColor=white&color=0083DC) ![](https://img.shields.io/badge/Intel-Core_Ultra_9-informational?style=flat&logo=intel&logoColor=white&color=0071C5) ![](https://img.shields.io/badge/RAM-64_GB_DDR5-informational?style=flat&color=4B0082) ![](https://img.shields.io/badge/NVIDIA-RTX_5090-informational?style=flat&logo=nvidia&logoColor=white&color=76bc00) |
-| 💻 **MacBook Pro M4 Max** | ![](https://img.shields.io/badge/Apple-M4_Max-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD) ![](https://img.shields.io/badge/RAM-128_GB-informational?style=flat&color=4B0082) |
-| 🖥️ **Mac Mini M4** | ![](https://img.shields.io/badge/Apple-M4-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD) ![](https://img.shields.io/badge/RAM-16_GB-informational?style=flat&color=4B0082) |
-| 💻 **MacBook Air M2** | ![](https://img.shields.io/badge/Apple-M2-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD) ![](https://img.shields.io/badge/RAM-8_GB-informational?style=flat&color=4B0082) |
+| **Desktop** | ![](https://img.shields.io/badge/Windows-11_Pro-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMy40IDkuOCAydjkuNUgwem0xMSAxMC43VjIgLjVMMjQgMHYxMS41SDExek0wIDEyLjZoOS44VjIyTDAgMjAuN3ptMTEgMGgxM1YyNGwtMTMtMS44eiIvPjwvc3ZnPg%3D%3D&logoColor=white&color=0083DC) ![](https://img.shields.io/badge/Intel-Core_Ultra_9-informational?style=flat&logo=intel&logoColor=white&color=0071C5) ![](https://img.shields.io/badge/RAM-64_GB_DDR5-informational?style=flat&color=4B0082) ![](https://img.shields.io/badge/NVIDIA-RTX_5090-informational?style=flat&logo=nvidia&logoColor=white&color=76bc00) |
+| **MacBook Pro M4 Max** | ![](https://img.shields.io/badge/Apple-M4_Max-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD) ![](https://img.shields.io/badge/RAM-128_GB-informational?style=flat&color=4B0082) |
+| **Mac Mini M4** | ![](https://img.shields.io/badge/Apple-M4-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD) ![](https://img.shields.io/badge/RAM-16_GB-informational?style=flat&color=4B0082) |
+| **MacBook Air M2** | ![](https://img.shields.io/badge/Apple-M2-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD) ![](https://img.shields.io/badge/RAM-8_GB-informational?style=flat&color=4B0082) |
 
 ## 📜 Certifications
 
@@ -98,13 +98,13 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
 </div>
 
 **Community roles:**
-- 🥇 **Gold MLSA** (Top 5%): 2,800+ students mentored since Oct 2022; co-founded Microsoft Aurora Kolkata; Technical Lead, MLSA Nexus Chapter
-- 🌐 **[GDG On-Campus TMSL](https://gdg.community.dev/gdg-on-campus-techno-main-salt-lake-kolkata-india/)**: Lead Organizer / DevOps Lead, 750+ members, since Nov 2022
-- 📮 **Postman Community Kolkata**: Co-organizer, since Jan 2025
-- ☁️ **[GDG Cloud Kolkata](https://gdg.community.dev/gdg-cloud-kolkata/)**: Volunteer, since May 2023
-- 🤖 **ML Kolkata** (formerly TensorFlow User Group Kolkata): Member, since Aug 2023
-- ⛅ **[CNCF Hooghly](https://community.cncf.io/cloud-native-hooghly/)**: Core team, Aug 2023 to Apr 2024
-- 👨‍💻 **[GeeksforGeeks](https://www.geeksforgeeks.org/user/adityaseth_777/) Campus Rep**: Sep 2022 to Oct 2023
+- **Gold MLSA** (Top 5%): 2,800+ students mentored since Oct 2022; co-founded Microsoft Aurora Kolkata; Technical Lead, MLSA Nexus Chapter
+- **[GDG On-Campus TMSL](https://gdg.community.dev/gdg-on-campus-techno-main-salt-lake-kolkata-india/)**: Lead Organizer / DevOps Lead, 750+ members, since Nov 2022
+- **Postman Community Kolkata**: Co-organizer, since Jan 2025
+- **[GDG Cloud Kolkata](https://gdg.community.dev/gdg-cloud-kolkata/)**: Volunteer, since May 2023
+- **ML Kolkata** (formerly TensorFlow User Group Kolkata): Member, since Aug 2023
+- **[CNCF Hooghly](https://community.cncf.io/cloud-native-hooghly/)**: Core team, Aug 2023 to Apr 2024
+- **[GeeksforGeeks](https://www.geeksforgeeks.org/user/adityaseth_777/) Campus Rep**: Sep 2022 to Oct 2023
 
 ## 📸 Hobbies
 
@@ -154,7 +154,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 
 ### 🔒 Private / proprietary
 
-> Built under research, employer or client engagements, so the source isn't publicly hosted. 📧 [Request access or a walkthrough](mailto:contact@adityaseth.in)
+> Built under research, employer or client engagements, so the source isn't publicly hosted. [Request access or a walkthrough](mailto:contact@adityaseth.in)
 
 <table>
 <tr>
