@@ -49,15 +49,6 @@ jobs:
           plugin_activity_days: 10
           plugin_activity_visibility: all
           plugin_activity_filter: all
-      # - name: License Activity
-      #   uses: lowlighter/metrics@v3.34
-      #   with:
-      #     filename: licenses.svg
-      #     token: ${{ secrets.METRICS_TOKEN }}
-      #     base: ""
-      #     plugin_licenses: yes
-      #     repo: ${{ github.repository }}
-      #     plugin_licenses_setup: npm ci
       - name: Achivements
         uses: lowlighter/metrics@v3.34
         continue-on-error: true
@@ -99,19 +90,6 @@ jobs:
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: graph
-      - name: Repository licenses
-        uses: lowlighter/metrics@v3.34
-        continue-on-error: true
-        with:
-          filename: licenses.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          template: repository
-          repo: ShieldK8s
-          plugin_licenses: yes
-          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
-          plugin_licenses_legal: yes
-          plugin_licenses_ratio: yes
       - name: LeetCode
         uses: lowlighter/metrics@v3.34
         continue-on-error: true
