@@ -19,6 +19,14 @@ Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Ph
 OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
 ```
 
+### Languages & Tech Stack
+
+<div align=center>
+
+<img src="https://skillicons.dev/icons?i=c,cpp,py,kotlin,html,css,git,github,linux,heroku,ps,ai" />
+
+</div>
+
 <div align=center>
 
 [![coding speed x 1000](/images/187495.gif)](https://github.com/AdityaSeth777)
@@ -28,12 +36,12 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 | Role | Company | Duration |
 |---|---|---|
-| 🚀 Software Engineer II (L3), Data & AI | Red Hat, IBM — Pune | Oct 2026 – Present |
+| 🚀 Software Engineer II (L3), Data & AI | Red Hat, IBM  Pune | Oct 2026 – Present |
 | 🧠 Software, Strategy & AI Initiatives Lead | Techno India Group | Aug 2025 – Oct 2026 |
 | 🔬 Research Engineer | iHUB DivyaSampark, IIT Roorkee | Oct 2025 – Oct 2026 |
 | 💻 SWE Intern | Techno Billion AI | Mar 2025 – Sep 2025 |
 | 🛠️ SDE Intern | Oriens InfoTech Pvt. Ltd. (Remote) | Apr 2024 – Jan 2025 |
-| 🌐 Freelance Developer | Remote — US Clients | Oct 2022 – Sep 2024 |
+| 🌐 Freelance Developer | Remote  US Clients | Oct 2022 – Sep 2024 |
 
 ### Wanna listen to what I am listening to ? :)
 
@@ -67,14 +75,6 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ![](https://img.shields.io/badge/Apple-M4_Max-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD)
 ![](https://img.shields.io/badge/RAM-128_GB-informational?style=flat&color=4B0082)
 
-### Languages & Tech Stack
-
-<div align=center>
-
-<img src="https://skillicons.dev/icons?i=c,cpp,py,kotlin,html,css,git,github,linux,heroku,ps,ai" />
-
-</div>
-
 ## 📜 Certifications
 
 <div align=center>
@@ -105,13 +105,13 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 </div>
 
 **Community roles:**
-- 🥇 **Gold MLSA** — 2,800+ students mentored since Oct 2022; co-founded Microsoft Aurora Kolkata; Technical Lead, MLSA Nexus Chapter
-- 🌐 **GDG On-Campus TMSL** — Lead Organizer / DevOps Lead, 750+ members, since Nov 2022
-- 📮 **Postman Community Kolkata** — Co-organizer, since Jan 2025
-- ☁️ **GDG Cloud Kolkata** — Volunteer, since May 2023
-- 🤖 **ML Kolkata** — Member, since Aug 2023
-- ⛅ **CNCF Hooghly** — Core team, Aug 2023 – Apr 2024
-- 👨‍💻 **GeeksforGeeks Campus Rep** — Sep 2022 – Oct 2023
+- 🥇 **Gold MLSA**  2,800+ students mentored since Oct 2022; co-founded Microsoft Aurora Kolkata; Technical Lead, MLSA Nexus Chapter
+- 🌐 **GDG On-Campus TMSL**  Lead Organizer / DevOps Lead, 750+ members, since Nov 2022
+- 📮 **Postman Community Kolkata**  Co-organizer, since Jan 2025
+- ☁️ **GDG Cloud Kolkata**  Volunteer, since May 2023
+- 🤖 **ML Kolkata**  Member, since Aug 2023
+- ⛅ **CNCF Hooghly**  Core team, Aug 2023 – Apr 2024
+- 👨‍💻 **GeeksforGeeks Campus Rep**  Sep 2022 – Oct 2023
 
 ## 📸 Hobbies
 
@@ -123,7 +123,7 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 </div>
 
-Beyond the camera, I spend my off-hours digging into **cryptography** puzzles and problem-solving challenges, and occasionally moonlighting as a **graphic editor** on side projects — habits that trace back to the same curiosity behind the day job.
+Beyond the camera, I spend my off-hours digging into **cryptography** puzzles and problem-solving challenges, and occasionally moonlighting as a **graphic editor** on side projects  habits that trace back to the same curiosity behind the day job.
 
 ## 🚀 Projects
 
@@ -139,7 +139,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 
 ### Private / proprietary
 
-> Built under employer or client engagements — not publicly hosted. 📧 [Request access / details](mailto:contact@adityaseth.in)
+> Built under employer or client engagements  not publicly hosted. 📧 [Request access / details](mailto:contact@adityaseth.in)
 
 <table align="center">
 <tr>
