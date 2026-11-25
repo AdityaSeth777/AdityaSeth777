@@ -9,7 +9,7 @@ That project has had no real commit since December 2023.
 Layout deliberately mirrors the card this replaces, down to the octicons,
 which are lifted from the original output into octicons.json.
 
-Totals cover all non-fork repositories owned by the account, private
+Totals cover every repository the account owns: forks and private repos
 included, so the token needs the repo scope.
 """
 import base64
@@ -40,7 +40,7 @@ query($login:String!, $cursor:String) {
         weeks { contributionDays { contributionCount color date } }
       }
     }
-    repositories(first:50, after:$cursor, ownerAffiliations:OWNER, isFork:false) {
+    repositories(first:50, after:$cursor, ownerAffiliations:OWNER) {
       totalCount
       pageInfo { hasNextPage endCursor }
       nodes {
