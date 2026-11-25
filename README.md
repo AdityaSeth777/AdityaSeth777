@@ -16,14 +16,24 @@
 ```python
 Name = "Aditya Seth"
 Interests = ["Coding", "Cryptography", "Problem Solving", "Graphic Editing", "Photography", "Exploring various OS :)"]
-Languages = ["C", "C++", "Python", "HTML", "CSS", "Kotlin"]
 OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kali Linux", "Ubuntu Unity", "Manjaro", "Arch"]
 ```
 
-<!-- <div align=center>
+<div align=center>
 
 [![coding speed x 1000](/images/187495.gif)](https://github.com/AdityaSeth777)
-</div> !-->
+</div>
+
+## 💼 Experience
+
+| Role | Company | Duration |
+|---|---|---|
+| 🚀 Software Engineer II (L3), Data & AI | Red Hat, IBM — Pune | Oct 2026 – Present |
+| 🧠 Software, Strategy & AI Initiatives Lead | Techno India Group | Aug 2025 – Oct 2026 |
+| 🔬 Research Engineer | iHUB DivyaSampark, IIT Roorkee | Oct 2025 – Oct 2026 |
+| 💻 SWE Intern | Techno Billion AI | Mar 2025 – Sep 2025 |
+| 🛠️ SDE Intern | Oriens InfoTech Pvt. Ltd. (Remote) | Apr 2024 – Jan 2025 |
+| 🌐 Freelance Developer | Remote — US Clients | Oct 2022 – Sep 2024 |
 
 ### Wanna listen to what I am listening to ? :)
 
@@ -57,24 +67,63 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 ![](https://img.shields.io/badge/Apple-M4_Max-informational?style=flat&logo=apple&logoColor=white&color=A2AAAD)
 ![](https://img.shields.io/badge/RAM-128_GB-informational?style=flat&color=4B0082)
 
-### Tech Stack:
+### Languages & Tech Stack
 
 <div align=center>
 
-<img src="https://img.icons8.com/color/48/000000/c-programming.png">
-<img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png">
-<img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
-<img src="https://img.icons8.com/color/48/000000/kotlin.png"/>
-<img src="https://img.icons8.com/color/48/000000/heroku.png"/>
-<img src="https://img.icons8.com/color/48/000000/git.png"/>
-<img src="https://img.icons8.com/color/48/000000/linux--v1.png"/>
-<img src="https://img.icons8.com/color/48/000000/github--v1.png"/>
-<!-- <img src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png"/> !-->
-<img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
-<img src="https://img.icons8.com/color/48/000000/adobe-creative-cloud--v1.png"/>
-<img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,py,kotlin,html,css,git,github,linux,heroku,ps,ai" />
 
 </div>
+
+## 📜 Certifications
+
+<div align=center>
+
+![](https://img.shields.io/badge/Google-Associate_Cloud_Engineer-informational?style=flat&logo=google-cloud&logoColor=white&color=4285F4)
+![](https://img.shields.io/badge/Microsoft-Azure_Data_Scientist_Associate_(DP--100)-informational?style=flat&color=737373)
+![](https://img.shields.io/badge/Microsoft-Azure_Fundamentals_(AZ--900)-informational?style=flat&color=737373)
+![](https://img.shields.io/badge/Microsoft-Azure_AI_Fundamentals_(AI--900)-informational?style=flat&color=737373)
+![](https://img.shields.io/badge/Microsoft-Security,_Compliance_%26_Identity_Fundamentals_(SC--900)-informational?style=flat&color=737373)
+![](https://img.shields.io/badge/Oracle-OCI_Foundations_(1Z0--1085--25)-informational?style=flat&color=F80000)
+![](https://img.shields.io/badge/Oracle-OCI_AI_Foundations_(1Z0--1122--25)-informational?style=flat&color=F80000)
+![](https://img.shields.io/badge/Oracle-Data_Platform_Foundations_(1Z0--1195--25)-informational?style=flat&color=F80000)
+
+</div>
+
+## 🏆 Achievements & Community
+
+<div align=center>
+
+![](https://img.shields.io/badge/LeetCode-Knight_(Peak_2001,_Top_2.6%25)-informational?style=flat&logo=leetcode&logoColor=white&color=FFA116)
+![](https://img.shields.io/badge/Microsoft-Gold_MLSA_(Top_5%25)-informational?style=flat&color=737373)
+![](https://img.shields.io/badge/GDG_On--Campus-Gold_Tier-informational?style=flat&logo=google&logoColor=white&color=4285F4)
+![](https://img.shields.io/badge/Techno_India_Group-Chancellor's_Gold_Medal_'24-informational?style=flat&logo=academia&logoColor=white&color=D4AF37)
+![](https://img.shields.io/badge/HackerRank-6_Star-informational?style=flat&logo=hackerrank&logoColor=white&color=2EC866)
+![](https://img.shields.io/badge/CodeChef-5_Star-informational?style=flat&logo=codechef&logoColor=white&color=5B4638)
+![](https://img.shields.io/badge/MTech-Merit_Scholarship_'25-informational?style=flat&color=6A1B9A)
+
+</div>
+
+**Community roles:**
+- 🥇 **Gold MLSA** — 2,800+ students mentored since Oct 2022; co-founded Microsoft Aurora Kolkata; Technical Lead, MLSA Nexus Chapter
+- 🌐 **GDG On-Campus TMSL** — Lead Organizer / DevOps Lead, 750+ members, since Nov 2022
+- 📮 **Postman Community Kolkata** — Co-organizer, since Jan 2025
+- ☁️ **GDG Cloud Kolkata** — Volunteer, since May 2023
+- 🤖 **ML Kolkata** — Member, since Aug 2023
+- ⛅ **CNCF Hooghly** — Core team, Aug 2023 – Apr 2024
+- 👨‍💻 **GeeksforGeeks Campus Rep** — Sep 2022 – Oct 2023
+
+## 📸 Hobbies
+
+<div align=center>
+
+![](https://img.shields.io/badge/Photography-292_frames_shot-informational?style=flat&logo=unsplash&logoColor=white&color=E09F3E)
+![](https://img.shields.io/badge/Self--shot-121_frames-informational?style=flat&logo=adobelightroom&logoColor=white&color=31A8FF)
+![](https://img.shields.io/badge/Subjects-Landscapes_%7C_Festivals_%7C_Travel_%7C_Everyday_life-informational?style=flat&color=6A4C93)
+
+</div>
+
+Beyond the camera, I spend my off-hours digging into **cryptography** puzzles and problem-solving challenges, and occasionally moonlighting as a **graphic editor** on side projects — habits that trace back to the same curiosity behind the day job.
 
 ## 🚀 Projects
 
