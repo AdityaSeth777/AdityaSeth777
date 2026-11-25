@@ -34,5 +34,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_people: yes
-          plugin_people_limit: 100
+          # The plugin pages the API 100 at a time, then splices the result
+          # down to this limit, so 100 was the only thing capping the card.
+          # Headroom for growth; it costs one extra request per 100 followers.
+          plugin_people_limit: 500
           plugin_people_types: followers
