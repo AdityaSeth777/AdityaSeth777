@@ -1,4 +1,8 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:121212,100:1a1a2e&height=220&section=header&text=Hi,%20I'm%20Aditya%20Seth&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Builder%20%E2%80%A2%20Cloud%20%26%20AI&descAlignY=58&descSize=20)
+<img src="./banner.png" width="100%">
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=53B14F&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Aditya+Seth;Software+Engineer+%40+Red+Hat%2C+IBM;Cloud+%26+AI+%E2%80%A2+Builder+%E2%80%A2+Mentor" alt="Typing SVG" />
+</p>
 
 ## Click here to visit my website -> [(www.adityaseth.in)](https://adityaseth.in)
 
@@ -74,87 +78,57 @@ OS = ["Zorin", "Ubuntu", "BlackArch", "Nitrux", "Windows", "Elementary OS", "Kal
 
 ## 🚀 Projects
 
+### Open source
+
 <div align=center>
 
-<details>
-<summary><b>EduCRM</b> — Enterprise SaaS B2B AI platform serving 30,000+ users</summary>
-<br>
+<a href="https://github.com/AdityaSeth777/ShieldK8s"><img width=30% src="https://github-readme-stats.vercel.app/api/pin/?username=AdityaSeth777&repo=ShieldK8s&theme=highcontrast" /></a>
+<a href="https://github.com/AdityaSeth777/WorkX"><img width=30% src="https://github-readme-stats.vercel.app/api/pin/?username=AdityaSeth777&repo=WorkX&theme=highcontrast" /></a>
+<a href="https://github.com/AdityaSeth777/Audio-SpectraCLI"><img width=30% src="https://github-readme-stats.vercel.app/api/pin/?username=AdityaSeth777&repo=Audio-SpectraCLI&theme=highcontrast" /></a>
 
-Event-driven architecture handling ~25,000 concurrent AI conversations, with XGBoost-based lead scoring and full observability via Prometheus/Grafana.
+</div>
+
+### Private / proprietary
+
+> Built under employer or client engagements — not publicly hosted. 📧 [Request access / details](mailto:contact@adityaseth.in)
+
+<table align="center">
+<tr>
+<td width="33%" valign="top">
+
+**EduCRM**
+Enterprise SaaS B2B AI platform, 30,000+ users. Event-driven, ~25,000 concurrent AI conversations, XGBoost lead scoring, Prometheus/Grafana observability.
 
 ![](https://img.shields.io/badge/-Python-informational?style=flat&logo=python&logoColor=white&color=3776AB)
 ![](https://img.shields.io/badge/-XGBoost-informational?style=flat&logoColor=white&color=1A73E8)
 ![](https://img.shields.io/badge/-Prometheus-informational?style=flat&logo=prometheus&logoColor=white&color=E6522C)
 ![](https://img.shields.io/badge/-Grafana-informational?style=flat&logo=grafana&logoColor=white&color=F46800)
 
-</details>
+</td>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>AgentHosp</b> — 16 AI agents simulating a 40-step hospital workflow</summary>
-<br>
-
-FastAPI backend with 45+ REST endpoints and WebSocket support; exports FHIR R4 records; calibrated on 42,989 Synthea prescriptions.
+**AgentHosp**
+16 AI agents simulating a 40-step hospital workflow. FastAPI, 45+ REST endpoints, WebSockets, FHIR R4 export, calibrated on 42,989 Synthea prescriptions.
 
 ![](https://img.shields.io/badge/-FastAPI-informational?style=flat&logo=fastapi&logoColor=white&color=009688)
 ![](https://img.shields.io/badge/-Python-informational?style=flat&logo=python&logoColor=white&color=3776AB)
 ![](https://img.shields.io/badge/-WebSocket-informational?style=flat&logo=socketdotio&logoColor=white&color=010101)
 ![](https://img.shields.io/badge/-FHIR-informational?style=flat&logoColor=white&color=CF2E2E)
 
-</details>
+</td>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>CognEn</b> — Real-time engagement analytics, dual-tier pipeline</summary>
-<br>
-
-Browser-side pipeline paired with a FastAPI GPU server; YOLOv8 + MediaPipe + ONNX + 1D-CNN, achieving an F1 score of ~0.97.
+**CognEn**
+Real-time engagement analytics, dual-tier pipeline (browser + FastAPI GPU server). YOLOv8, MediaPipe, ONNX, 1D-CNN, F1 ~0.97.
 
 ![](https://img.shields.io/badge/-Python-informational?style=flat&logo=python&logoColor=white&color=3776AB)
 ![](https://img.shields.io/badge/-FastAPI-informational?style=flat&logo=fastapi&logoColor=white&color=009688)
 ![](https://img.shields.io/badge/-ONNX-informational?style=flat&logoColor=white&color=005CED)
 ![](https://img.shields.io/badge/-OpenCV-informational?style=flat&logo=opencv&logoColor=white&color=5C3EE8)
 
-</details>
-
-<details>
-<summary><b>ShieldK8s</b> — Kubernetes-native security framework</summary>
-<br>
-
-RBAC enforcement, anomaly detection, and CVE scanning, with observability through Prometheus, Grafana, and the ELK stack.
-
-![](https://img.shields.io/badge/-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=326CE5)
-![](https://img.shields.io/badge/-Prometheus-informational?style=flat&logo=prometheus&logoColor=white&color=E6522C)
-![](https://img.shields.io/badge/-Grafana-informational?style=flat&logo=grafana&logoColor=white&color=F46800)
-![](https://img.shields.io/badge/-Elasticsearch-informational?style=flat&logo=elasticsearch&logoColor=white&color=005571)
-
-</details>
-
-<details>
-<summary><b>WorkX</b> — Full-stack job portal (Django REST + React)</summary>
-<br>
-
-Elasticsearch-powered search (DSL), Google Sign-In/JWT auth, Firebase integration, PostgreSQL backend, deployed on AWS Elastic Beanstalk.
-
-![](https://img.shields.io/badge/-Django-informational?style=flat&logo=django&logoColor=white&color=092E20)
-![](https://img.shields.io/badge/-React-informational?style=flat&logo=react&logoColor=white&color=61DAFB)
-![](https://img.shields.io/badge/-Elasticsearch-informational?style=flat&logo=elasticsearch&logoColor=white&color=005571)
-![](https://img.shields.io/badge/-Firebase-informational?style=flat&logo=firebase&logoColor=white&color=FFCA28)
-![](https://img.shields.io/badge/-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=4169E1)
-![](https://img.shields.io/badge/-AWS-informational?style=flat&logo=amazonaws&logoColor=white&color=FF9900)
-
-</details>
-
-<details>
-<summary><b>Audio-SpectraCLI</b> — Terminal spectrum analyzer, published on PyPI</summary>
-<br>
-
-A command-line audio spectrum analyzer, packaged and published as a PyPI library.
-
-![](https://img.shields.io/badge/-Python-informational?style=flat&logo=python&logoColor=white&color=3776AB)
-![](https://img.shields.io/badge/-PyPI-informational?style=flat&logo=pypi&logoColor=white&color=3775A9)
-
-</details>
-
-</div>
+</td>
+</tr>
+</table>
 
 ### Connect with me:
 
@@ -251,17 +225,6 @@ A command-line audio spectrum analyzer, packaged and published as a PyPI library
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake.svg" />
 </picture>
-
-</div>
-
-## 📇 Dev Cards
-
-<div align=center>
-
-<img src="https://gitcard-studio.creativecode.com.co/api/rank?username=AdityaSeth777&theme=dark&lang=en" />
-<img src="https://gitcard-studio.creativecode.com.co/api/today-status?username=AdityaSeth777&theme=dark&lang=en" />
-
-<img src="https://gitcard-studio.creativecode.com.co/api/commit-activity?username=AdityaSeth777&theme=dark&lang=en" />
 
 </div>
 
