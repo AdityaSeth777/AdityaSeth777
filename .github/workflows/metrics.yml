@@ -53,23 +53,3 @@ jobs:
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: graph
-      - name: LeetCode
-        uses: lowlighter/metrics@v3.34
-        continue-on-error: true
-        with:
-          filename: leetcode.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_leetcode: yes
-          plugin_leetcode_user: AdityaSethX
-          plugin_leetcode_sections: solved, skills, recent
-      - name: Blog posts
-        uses: lowlighter/metrics@v3.34
-        continue-on-error: true
-        with:
-          filename: blog.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_rss: yes
-          plugin_rss_source: https://adityaseth.in/feed.xml
-          plugin_rss_limit: 6

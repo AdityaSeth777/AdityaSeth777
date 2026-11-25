@@ -21,50 +21,17 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
 
 <table align="center">
 <tr><td align="right"><b>Languages</b></td><td><img src="https://skillicons.dev/icons?i=python,java,cpp,c,typescript,javascript,bash,kotlin" /></td></tr>
-<tr><td align="right"><b>Backend&nbsp;&&nbsp;APIs</b></td><td><img src="https://skillicons.dev/icons?i=spring,fastapi,django,nodejs,graphql" /></td></tr>
+<tr><td align="right"><b>Backend&nbsp;&&nbsp;APIs</b></td><td><img src="https://skillicons.dev/icons?i=spring,fastapi,django,nodejs,graphql" /><img height="48" src="https://cdn.simpleicons.org/socketdotio/B0B0B0" title="WebSocket" /><img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grpc/grpc-original.svg" title="gRPC" /></td></tr>
 <tr><td align="right"><b>Frontend</b></td><td><img src="https://skillicons.dev/icons?i=react,nextjs,html,css" /></td></tr>
 <tr><td align="right"><b>Data</b></td><td><img src="https://skillicons.dev/icons?i=postgresql,mysql,redis,elasticsearch,sqlite" /></td></tr>
-<tr><td align="right"><b>Cloud&nbsp;&&nbsp;Infra</b></td><td><img src="https://skillicons.dev/icons?i=aws,gcp,azure,kubernetes,docker,terraform,linux,kafka,nginx,redhat" /></td></tr>
-<tr><td align="right"><b>Observability&nbsp;&&nbsp;CI</b></td><td><img src="https://skillicons.dev/icons?i=prometheus,grafana,githubactions,jenkins" /></td></tr>
-<tr><td align="right"><b>ML&nbsp;&&nbsp;AI</b></td><td><img src="https://skillicons.dev/icons?i=pytorch,scikitlearn,opencv" /></td></tr>
+<tr><td align="right"><b>Cloud&nbsp;&&nbsp;Infra</b></td><td><img src="https://skillicons.dev/icons?i=aws,gcp,azure,kubernetes,docker,terraform,linux,kafka,nginx,redhat" /><img height="48" src="https://cdn.simpleicons.org/helm/3C50D6" title="Helm" /></td></tr>
+<tr><td align="right"><b>Observability&nbsp;&&nbsp;CI</b></td><td><img src="https://skillicons.dev/icons?i=prometheus,grafana,githubactions,jenkins" /><img height="48" src="https://cdn.simpleicons.org/opentelemetry/F5A800" title="OpenTelemetry" /><img height="48" src="https://cdn.simpleicons.org/kibana" title="Kibana (ELK)" /><img height="48" src="https://cdn.simpleicons.org/logstash" title="Logstash (ELK)" /></td></tr>
+<tr><td align="right"><b>ML&nbsp;&&nbsp;AI</b></td><td><img src="https://skillicons.dev/icons?i=pytorch,scikitlearn,opencv" /><img height="48" src="https://cdn.simpleicons.org/onnx" title="ONNX Runtime" /><img height="48" src="https://cdn.simpleicons.org/ultralytics/4A5FCF" title="YOLOv8" /><img height="48" src="https://cdn.simpleicons.org/mediapipe" title="MediaPipe" /><img height="28" src="https://img.shields.io/badge/XGBoost-informational?style=flat&color=1A73E8&labelColor=1c1c1c" title="XGBoost" /></td></tr>
+<tr><td align="right"><b>LLM&nbsp;&&nbsp;RAG</b></td><td><img height="48" src="https://cdn.simpleicons.org/ollama/B0B0B0" title="Ollama" /><img height="48" src="https://cdn.simpleicons.org/langchain" title="LangChain" /><img height="48" src="https://cdn.simpleicons.org/huggingface" title="Hugging Face" /><img height="28" src="https://img.shields.io/badge/ChromaDB-informational?style=flat&color=FFC107&labelColor=1c1c1c" title="ChromaDB" /></td></tr>
+<tr><td align="right"><b>Testing</b></td><td><img height="48" src="https://cdn.simpleicons.org/junit5" title="JUnit 5" /><img height="48" src="https://cdn.simpleicons.org/pytest" title="pytest" /><img height="28" src="https://img.shields.io/badge/Mockito-informational?style=flat&color=78A641&labelColor=1c1c1c" title="Mockito" /></td></tr>
 <tr><td align="right"><b>Tools</b></td><td><img src="https://skillicons.dev/icons?i=git,github,postman,vscode,photoshop,illustrator" /></td></tr>
 <tr><td align="right"><b>Operating&nbsp;systems</b></td><td><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,kali,debian,mint,redhat,apple,windows" /></td></tr>
-<tr><td align="right"><b>Interests</b></td><td>
-<img width="42" height="42" src="https://img.icons8.com/color/48/source-code.png" title="Coding" />
-<img width="42" height="42" src="https://img.icons8.com/color/48/lock-2.png" title="Cryptography" />
-<img width="42" height="42" src="https://img.icons8.com/color/48/puzzle.png" title="Problem solving" />
-<img width="42" height="42" src="https://img.icons8.com/color/48/adobe-photoshop--v1.png" title="Graphic editing" />
-<img width="42" height="42" src="https://img.icons8.com/color/48/camera.png" title="Photography" />
-<img width="42" height="42" src="https://img.icons8.com/color/48/system-task.png" title="Distro hopping" />
-</td></tr>
-</table>
-
-<table align="center">
-<tr><td align="right"><b>ML&nbsp;runtime&nbsp;&&nbsp;vision</b></td><td>
-<img height="32" src="https://cdn.simpleicons.org/onnx" title="ONNX Runtime" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/ultralytics/4A5FCF" title="YOLOv8 (Ultralytics)" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/mediapipe" title="MediaPipe" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/huggingface" title="Hugging Face" />&nbsp;
-<img src="https://img.shields.io/badge/XGBoost-informational?style=flat&color=1A73E8&labelColor=1c1c1c" title="XGBoost" />
-</td></tr>
-<tr><td align="right"><b>LLM&nbsp;&&nbsp;RAG</b></td><td>
-<img height="32" src="https://cdn.simpleicons.org/ollama/B0B0B0" title="Ollama" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/langchain" title="LangChain / RAG" />&nbsp;
-<img src="https://img.shields.io/badge/ChromaDB-informational?style=flat&color=FFC107&labelColor=1c1c1c" title="ChromaDB" />
-</td></tr>
-<tr><td align="right"><b>Platform&nbsp;&&nbsp;protocols</b></td><td>
-<img height="32" src="https://cdn.simpleicons.org/helm/3C50D6" title="Helm" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/opentelemetry/F5A800" title="OpenTelemetry" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/kibana" title="Kibana (ELK)" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/logstash" title="Logstash (ELK)" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/socketdotio/B0B0B0" title="WebSocket" />&nbsp;
-<img src="https://img.shields.io/badge/gRPC-informational?style=flat&color=244B5A&labelColor=1c1c1c" title="gRPC" />
-</td></tr>
-<tr><td align="right"><b>Testing</b></td><td>
-<img height="32" src="https://cdn.simpleicons.org/junit5" title="JUnit 5" />&nbsp;
-<img height="32" src="https://cdn.simpleicons.org/pytest" title="pytest" />&nbsp;
-<img src="https://img.shields.io/badge/Mockito-informational?style=flat&color=78A641&labelColor=1c1c1c" title="Mockito" />
-</td></tr>
+<tr><td align="right"><b>Interests</b></td><td><img height="44" src="https://img.icons8.com/color/48/source-code.png" title="Coding" /><img height="44" src="https://img.icons8.com/color/48/lock-2.png" title="Cryptography" /><img height="44" src="https://img.icons8.com/color/48/puzzle.png" title="Problem solving" /><img height="44" src="https://img.icons8.com/color/48/adobe-photoshop--v1.png" title="Graphic editing" /><img height="44" src="https://img.icons8.com/color/48/camera.png" title="Photography" /><img height="44" src="https://img.icons8.com/color/48/system-task.png" title="Distro hopping" /></td></tr>
 </table>
 
 <div align=center>
@@ -104,14 +71,14 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
 
 <div align=center>
 
-[![](https://img.shields.io/badge/Google-Associate_Cloud_Engineer-informational?style=flat&logo=google-cloud&logoColor=white&color=4285F4)](https://google.accredible.com/e87df4fd-6ae8-4d19-8bc1-3bc50e3cf2da)
-![](https://img.shields.io/badge/Microsoft-Azure_Data_Scientist_Associate_(DP--100)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)
-![](https://img.shields.io/badge/Microsoft-Azure_Fundamentals_(AZ--900)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)
-![](https://img.shields.io/badge/Microsoft-Azure_AI_Fundamentals_(AI--900)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)
-![](https://img.shields.io/badge/Microsoft-Security,_Compliance_%26_Identity_Fundamentals_(SC--900)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)
-![](https://img.shields.io/badge/Oracle-OCI_Foundations_(1Z0--1085--25)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSIxMC40IiByeT0iNS42IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMy40Ii8%2BPC9zdmc%2B&logoColor=white&color=F80000)
-![](https://img.shields.io/badge/Oracle-OCI_AI_Foundations_(1Z0--1122--25)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSIxMC40IiByeT0iNS42IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMy40Ii8%2BPC9zdmc%2B&logoColor=white&color=F80000)
-![](https://img.shields.io/badge/Oracle-Data_Platform_Foundations_(1Z0--1195--25)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSIxMC40IiByeT0iNS42IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMy40Ii8%2BPC9zdmc%2B&logoColor=white&color=F80000)
+[![](https://img.shields.io/badge/Google-Associate_Cloud_Engineer-informational?style=flat&logo=google-cloud&logoColor=white&color=4285F4)](https://www.credly.com/badges/75d53d51-e947-4d5b-8b81-5ca7c91eb727/public_url)
+[![](https://img.shields.io/badge/Microsoft-Azure_Data_Scientist_Associate_(DP--100)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)](https://learn.microsoft.com/api/credentials/share/en-us/AdityaSeth-7958/569BB02665613D0A?sharingId=studentamb_223747)
+[![](https://img.shields.io/badge/Microsoft-Azure_Fundamentals_(AZ--900)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)](https://learn.microsoft.com/api/credentials/share/en-us/AdityaSeth-7958/66D11AE7B643C3AA?sharingId=studentamb_223747)
+[![](https://img.shields.io/badge/Microsoft-Azure_AI_Fundamentals_(AI--900)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)](https://learn.microsoft.com/api/credentials/share/en-us/AdityaSeth-7958/5F267A82E6CC003B?sharingId=studentamb_223747)
+[![](https://img.shields.io/badge/Microsoft-Security,_Compliance_%26_Identity_Fundamentals_(SC--900)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMXYxMUgwem0xMyAwaDExdjExSDEzek0wIDEzaDExdjExSDB6bTEzIDBoMTF2MTFIMTN6Ii8%2BPC9zdmc%2B&logoColor=white&color=737373)](https://learn.microsoft.com/api/credentials/share/en-us/AdityaSeth-7958/1B7502851684F15B?sharingId=studentamb_223747)
+[![](https://img.shields.io/badge/Oracle-OCI_Foundations_(1Z0--1085--25)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSIxMC40IiByeT0iNS42IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMy40Ii8%2BPC9zdmc%2B&logoColor=white&color=F80000)](https://drive.google.com/file/d/1fkr2R2iOuqCJeXgU0oQPIrgn7owQH7Ki/view?usp=sharing)
+[![](https://img.shields.io/badge/Oracle-OCI_AI_Foundations_(1Z0--1122--25)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSIxMC40IiByeT0iNS42IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMy40Ii8%2BPC9zdmc%2B&logoColor=white&color=F80000)](https://drive.google.com/file/d/17iUgoEKrdawxPkLa9HCYUArRgp13KCLC/view?usp=sharing)
+[![](https://img.shields.io/badge/Oracle-Data_Platform_Foundations_(1Z0--1195--25)-informational?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSIxMC40IiByeT0iNS42IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMy40Ii8%2BPC9zdmc%2B&logoColor=white&color=F80000)](https://drive.google.com/file/d/1xgT4wsqys-o8fxOdgXnqsvCqOM2uKT1L/view?usp=sharing)
 
 </div>
 
@@ -290,7 +257,6 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 </table>
 
 <div align=center>
-<img width="70%" src="./blog.svg" alt="Latest posts, auto-updated daily" />
 </div>
 
 <p align="center"><a href="https://adityaseth.in/blog"><b>Read all posts on adityaseth.in/blog</b></a></p>
@@ -341,7 +307,6 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <div align="center">
 
 <a href="https://leetcode.com/u/AdityaSethX/"><img src="https://leetcard.jacoblin.cool/AdityaSethX?ext=contest" alt="LeetCode stats" /></a>
-<img src="./leetcode.svg" alt="LeetCode metrics" />
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=AdityaSethX)
 
