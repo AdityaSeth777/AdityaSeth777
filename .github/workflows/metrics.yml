@@ -28,6 +28,7 @@ jobs:
       #     plugin_languages_limit: 10
       - name: Followers
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: followers.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -37,6 +38,7 @@ jobs:
           plugin_people_types: followers
       - name: Recent Activity
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -58,6 +60,7 @@ jobs:
       #     plugin_licenses_setup: npm ci
       - name: Achivements
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -67,12 +70,14 @@ jobs:
           plugin_achievements_threshold: X
       - name: Overview
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
       - name: Coding habits and activity
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: codehabits.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -86,6 +91,7 @@ jobs:
           plugin_habits_trim: yes
       - name: Stargazers
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: stargazers.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -95,10 +101,12 @@ jobs:
           plugin_stargazers_charts_type: graph
       - name: Repository licenses
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: licenses.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          template: repository
           repo: ShieldK8s
           plugin_licenses: yes
           plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
@@ -106,6 +114,7 @@ jobs:
           plugin_licenses_ratio: yes
       - name: LeetCode
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: leetcode.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -115,6 +124,7 @@ jobs:
           plugin_leetcode_sections: solved, skills, recent
       - name: Blog posts
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: blog.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -124,6 +134,7 @@ jobs:
           plugin_rss_limit: 6
       - name: Topics
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: topics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -133,6 +144,7 @@ jobs:
           plugin_topics_limit: 15
       - name: Notable contributions
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: notable.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -141,6 +153,7 @@ jobs:
           plugin_notable_repositories: yes
       - name: GitHub Skyline
         uses: lowlighter/metrics@v3.34
+        continue-on-error: true
         with:
           filename: skyline.svg
           token: NOT_NEEDED
