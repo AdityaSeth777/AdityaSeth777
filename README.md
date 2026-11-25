@@ -290,7 +290,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 </table>
 
 <div align=center>
-<img width="70%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/blog.svg" alt="Latest posts, auto-updated daily" />
+<img width="70%" src="./blog.svg" alt="Latest posts, auto-updated daily" />
 </div>
 
 <p align="center"><a href="https://adityaseth.in/blog"><b>Read all posts on adityaseth.in/blog</b></a></p>
@@ -341,7 +341,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <div align="center">
 
 <a href="https://leetcode.com/u/AdityaSethX/"><img src="https://leetcard.jacoblin.cool/AdityaSethX?ext=contest" alt="LeetCode stats" /></a>
-<img src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/leetcode.svg" alt="LeetCode metrics" />
+<img src="./leetcode.svg" alt="LeetCode metrics" />
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=AdityaSethX)
 
@@ -350,24 +350,24 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 ### 💡 Coding habits and activity
 
 <div align=center>
-<img width="100%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/codehabits.svg" alt="Coding habits" />
+<img width="100%" src="./codehabits.svg" alt="Coding habits" />
 </div>
 
 ### ⭐ Stargazers, topics and notable work
 
 <div align=center>
-<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/stargazers.svg" alt="Stargazers" />
-<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/topics.svg" alt="Starred topics" />
-<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/notable.svg" alt="Notable contributions" />
-<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/licenses.svg" alt="Repository licenses" />
+<img width="49%" src="./stargazers.svg" alt="Stargazers" />
+<img width="49%" src="./topics.svg" alt="Starred topics" />
+<img width="49%" src="./notable.svg" alt="Notable contributions" />
+<img width="49%" src="./licenses.svg" alt="Repository licenses" />
 </div>
 
 ### Statistics :
 
 <div align=center>
-<img width="100%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/overview.svg" alt="Overview" />
-<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/activity.svg" alt="Recent activity" />
-<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/skyline.svg" alt="Contribution skyline" />
+<img width="100%" src="./overview.svg" alt="Overview" />
+<img width="49%" src="./activity.svg" alt="Recent activity" />
+<img width="49%" src="./skyline.svg" alt="Contribution skyline" />
 </div>
 
 <div align="center">
@@ -392,14 +392,14 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 </div> 
 <div align=center>
    <a href="https://github.com/AdityaSeth777">
-   <img width=49% src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/achievements.svg" />
+   <img width=49% src="./achievements.svg" />
    
 </div>
 
 <div align=center>            
    <a href="https://github.com/AdityaSeth777">
    <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=e3d20c&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+!!!" />
-   <img width=100% height=100% align="center" alt="Followers" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/followers.svg" />
+   <img width=100% height=100% align="center" alt="Followers" src="./followers.svg" />
    </a>
 </div>
 
