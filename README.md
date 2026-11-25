@@ -14,7 +14,7 @@
 </p>
 
 ```python
-Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य सेठ"
+Name = "Aditya Seth", "আদিত্য শেঠ", "आदित्य सेठ"
 ```
 
 ### Languages & Tech Stack
