@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="290" viewBox="0 0 840 290" role="img" aria-label="GitHub statistics">
+<title>GitHub statistics for Aditya Seth</title>
+<style>
+  .t{font:700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;fill:#fff}
+  .s{font:400 13px ui-monospace,Menlo,monospace;fill:#70707a}
+  .num{font:700 26px ui-monospace,Menlo,monospace;fill:#53B14F}
+  .lbl{font:400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;fill:#8a8a93}
+</style>
+<rect width="840" height="290" rx="14" fill="#131316"/>
+<text x="30" y="44" class="t">GitHub statistics</text>
+<text x="30" y="68" class="s">all owned repositories, private included  ·  TypeScript  ·  Python  ·  JavaScript  ·  HTML  ·  CSS</text>
+<g><rect x="30.0" y="92" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="46.0" y="124" class="num">163</text><text x="46.0" y="147" class="lbl">Stars earned</text></g><g><rect x="228.5" y="92" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="244.5" y="124" class="num">37</text><text x="244.5" y="147" class="lbl">Forks</text></g><g><rect x="427.0" y="92" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="443.0" y="124" class="num">8</text><text x="443.0" y="147" class="lbl">Releases</text></g><g><rect x="625.5" y="92" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="641.5" y="124" class="num">112</text><text x="641.5" y="147" class="lbl">Watchers</text></g><g><rect x="30.0" y="180" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="46.0" y="212" class="num">155</text><text x="46.0" y="235" class="lbl">Repositories</text></g><g><rect x="228.5" y="180" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="244.5" y="212" class="num">167</text><text x="244.5" y="235" class="lbl">Followers</text></g><g><rect x="427.0" y="180" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="443.0" y="212" class="num">357</text><text x="443.0" y="235" class="lbl">Merged PRs</text></g><g><rect x="625.5" y="180" width="184.5" height="74" rx="11" fill="#1a1a1f" stroke="#2a2a31"/><text x="641.5" y="212" class="num">78</text><text x="641.5" y="235" class="lbl">Contributed to</text></g>
+</svg>

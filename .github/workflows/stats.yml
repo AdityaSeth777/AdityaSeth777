@@ -1,0 +1,41 @@
+name: Stats Card
+
+# Replaces lowlighter/metrics' overview card, which reported 0 stargazers,
+# 0 forks and 0 releases for an account that has 159, 31 and 8. This queries
+# the GraphQL API directly, so the numbers are the real ones.
+
+on:
+  schedule:
+    - cron: "15 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    name: Generate stats card
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          STATS_USER: ${{ github.repository_owner }}
+        run: python3 -I .github/scripts/stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add stats.svg
+          git diff --staged --quiet || git commit -m "Update stats.svg [skip ci]"
+          git push

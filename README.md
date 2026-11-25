@@ -322,7 +322,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 ### Statistics :
 
 <div align=center>
-<img width="100%" src="./overview.svg" alt="Overview" />
+<img width="100%" src="./stats.svg" alt="GitHub statistics" />
 </div>
 
 <div align="center">
