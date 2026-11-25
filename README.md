@@ -212,7 +212,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <br/><img src="https://skillicons.dev/icons?i=python,fastapi,prometheus,grafana" height="28" />
 </td>
 <td width="33%" valign="top">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:EB3349,100:F45C43&height=80&section=header&text=AgentHosp&fontSize=30&fontColor=ffffff&fontAlignY=55" alt="AgentHosp" />
+<img width="100%" src="images/projects/agenthosp.png" alt="AgentHosp" />
 <br/><b>AgentHosp</b>
 <br/><sub>16 AI agents orchestrating a 40-step hospital pipeline: triage, online-learning XGBoost differential diagnosis, an 11-dimension RL feedback loop, pharmacy and FHIR R4 export.</sub>
 <br/><br/><img src="https://img.shields.io/badge/agents-16-informational?style=flat&color=455A64&labelColor=1c1c1c" alt="agents" />
@@ -223,7 +223,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 </tr>
 <tr>
 <td width="33%" valign="top">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:4568DC,100:B06AB3&height=80&section=header&text=EduCRM&fontSize=30&fontColor=ffffff&fontAlignY=55" alt="EduCRM" />
+<img width="100%" src="images/projects/educrm.png" alt="EduCRM" />
 <br/><b>EduCRM</b>
 <br/><sub>Enterprise B2B SaaS AI platform. Event-driven architecture with XGBoost lead scoring and Prometheus/Grafana observability.</sub>
 <br/><br/><img src="https://img.shields.io/badge/users-30,000%2B-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="users" />
@@ -231,7 +231,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <br/><img src="https://skillicons.dev/icons?i=python,prometheus,grafana" height="28" />
 </td>
 <td width="33%" valign="top">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:134E5E,100:71B280&height=80&section=header&text=ESD&fontSize=30&fontColor=ffffff&fontAlignY=55" alt="ESD" />
+<img width="100%" src="images/projects/esd.png" alt="ESD" />
 <br/><b>ESD</b>
 <br/><sub>AI-driven evaluation pipeline that auto-grades student submissions (PDFs, decks, video) against rubric parameters, on stateless Spring Boot services behind Nginx.</sub>
 <br/><br/><img src="https://img.shields.io/badge/concurrent_users-~15,000-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="users" />
@@ -239,7 +239,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <br/><img src="https://skillicons.dev/icons?i=java,spring,nginx,postgresql" height="28" />
 </td>
 <td width="33%" valign="top">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:833ab4,100:fd1d1d&height=80&section=header&text=Campus%20Pulse&fontSize=25&fontColor=ffffff&fontAlignY=55" alt="SOF CP" />
+<img width="100%" src="images/projects/campuspulse.png" alt="SOF CP" />
 <br/><b>SOF CP (Campus Pulse)</b>
 <br/><sub>Reddit-inspired grievance platform with intelligent complaint routing, duplicate detection, anonymous reporting and role-based dashboards.</sub>
 <br/><br/><img src="https://img.shields.io/badge/institutions-10%2B-informational?style=flat&color=2E7D32&labelColor=1c1c1c" alt="institutions" />
