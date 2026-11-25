@@ -312,10 +312,9 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 
 </div>
 
-### ⭐ Stargazers and dependency licenses
+### 📦 Dependency licenses
 
 <div align=center>
-<img width="49%" src="./stargazers.svg" alt="Stargazers" />
 <img width="49%" src="./licenses.svg" alt="Repository licenses" />
 </div>
 

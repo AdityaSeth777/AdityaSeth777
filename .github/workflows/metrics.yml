@@ -36,13 +36,3 @@ jobs:
           plugin_people: yes
           plugin_people_limit: 100
           plugin_people_types: followers
-      - name: Stargazers
-        uses: lowlighter/metrics@v3.34
-        continue-on-error: true
-        with:
-          filename: stargazers.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          plugin_stargazers_charts_type: graph

@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
 """Generate stats.svg from the GitHub GraphQL API.
 
-Written to replace lowlighter/metrics' overview card, which reported 0
-stargazers, 0 forks and 0 releases for an account that has 163, 33 and 8.
+Replaces lowlighter/metrics' overview card, which reported 0 stargazers,
+0 forks and 0 releases for an account that has 163, 37 and 8. Its run log
+showed the fetch succeeding, so the aggregation itself dropped the values.
 That project has had no real commit since December 2023.
+
+Layout deliberately mirrors the card this replaces, down to the octicons,
+which are lifted from the original output into octicons.json.
 
 Totals cover all non-fork repositories owned by the account, private
 included, so the token needs the repo scope.
 """
+import base64
+import datetime as dt
 import json
 import os
+import pathlib
 import time
 import urllib.error
 import urllib.request
@@ -18,26 +25,29 @@ API = "https://api.github.com/graphql"
 USER = os.environ.get("STATS_USER", "AdityaSeth777")
 TOKEN = os.environ["GITHUB_TOKEN"]
 OUT = os.environ.get("STATS_OUT", "stats.svg")
+ICONS = json.loads((pathlib.Path(__file__).parent / "octicons.json").read_text())
 
 QUERY = """
 query($login:String!, $cursor:String) {
   user(login:$login) {
-    name
+    name login avatarUrl createdAt
     followers { totalCount }
-    following { totalCount }
+    packages { totalCount }
+    sponsorshipsAsMaintainer { totalCount }
     repositoriesContributedTo(includeUserRepositories:true) { totalCount }
-    pullRequests(states:MERGED) { totalCount }
-    issues { totalCount }
-    repositories(first:50, after:$cursor, ownerAffiliations:OWNER,
-                 isFork:false) {
+    contributionsCollection {
+      contributionCalendar {
+        weeks { contributionDays { contributionCount color date } }
+      }
+    }
+    repositories(first:50, after:$cursor, ownerAffiliations:OWNER, isFork:false) {
       totalCount
       pageInfo { hasNextPage endCursor }
       nodes {
-        stargazerCount
-        forkCount
+        stargazerCount forkCount diskUsage
         releases { totalCount }
         watchers { totalCount }
-        primaryLanguage { name }
+        licenseInfo { spdxId }
       }
     }
   }
@@ -46,19 +56,15 @@ query($login:String!, $cursor:String) {
 
 
 def call(cursor=None, attempts=5):
-    """GitHub's GraphQL endpoint returns intermittent 502s on heavier queries,
+    """GitHub's GraphQL endpoint returns intermittent 502s on this query,
     so retry with backoff rather than failing the daily run."""
     body = json.dumps({"query": QUERY, "variables": {"login": USER, "cursor": cursor}})
     for attempt in range(1, attempts + 1):
         req = urllib.request.Request(
-            API,
-            data=body.encode(),
-            headers={
-                "Authorization": f"bearer {TOKEN}",
-                "Content-Type": "application/json",
-                "User-Agent": "profile-stats-card",
-            },
-        )
+            API, data=body.encode(),
+            headers={"Authorization": f"bearer {TOKEN}",
+                     "Content-Type": "application/json",
+                     "User-Agent": "profile-stats-card"})
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 payload = json.load(r)
@@ -74,8 +80,8 @@ def call(cursor=None, attempts=5):
 
 
 def collect():
-    stars = forks = releases = watchers = 0
-    langs = {}
+    stars = forks = releases = watchers = disk = 0
+    licenses = {}
     cursor, user = None, None
     while True:
         user = call(cursor)
@@ -85,81 +91,110 @@ def collect():
             forks += n["forkCount"]
             releases += n["releases"]["totalCount"]
             watchers += n["watchers"]["totalCount"]
-            lang = (n.get("primaryLanguage") or {}).get("name")
-            if lang:
-                langs[lang] = langs.get(lang, 0) + 1
+            disk += n.get("diskUsage") or 0
+            spdx = (n.get("licenseInfo") or {}).get("spdxId")
+            if spdx:
+                licenses[spdx] = licenses.get(spdx, 0) + 1
         if not repos["pageInfo"]["hasNextPage"]:
             break
         cursor = repos["pageInfo"]["endCursor"]
+
+    days = [d for w in user["contributionsCollection"]["contributionCalendar"]["weeks"]
+            for d in w["contributionDays"]]
+    joined = dt.datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))
+    years = int((dt.datetime.now(dt.timezone.utc) - joined).days / 365.25)
+
     return {
-        "name": user["name"] or USER,
-        "repos": user["repositories"]["totalCount"],
-        "stars": stars,
-        "forks": forks,
-        "releases": releases,
-        "watchers": watchers,
+        "name": user["name"] or user["login"],
+        "avatar": user["avatarUrl"],
+        "years": years,
         "followers": user["followers"]["totalCount"],
         "contributed": user["repositoriesContributedTo"]["totalCount"],
-        "merged_prs": user["pullRequests"]["totalCount"],
-        "top_langs": sorted(langs.items(), key=lambda kv: -kv[1])[:5],
+        "repos": user["repositories"]["totalCount"],
+        "license": max(licenses, key=licenses.get) if licenses else None,
+        "releases": releases,
+        "packages": user["packages"]["totalCount"],
+        "disk": disk,
+        "sponsors": user["sponsorshipsAsMaintainer"]["totalCount"],
+        "stars": stars,
+        "forks": forks,
+        "watchers": watchers,
+        "calendar": days[-14:],
     }
 
 
+def avatar_b64(url):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "profile-stats-card"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return base64.b64encode(r.read()).decode()
+    except Exception as err:          # the card is still useful without a face on it
+        print(f"avatar fetch failed ({err}), rendering without it")
+        return None
+
+
+def human_size(kb):
+    mb = kb / 1024
+    return f"{mb/1024:.2f} GB" if mb >= 1024 else f"{mb:.1f} MB"
+
+
 def esc(t):
-    return (str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    return str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def human(n):
-    return f"{n:,}"
+W, H = 540, 222
+BLUE, GREY, BG = "#58a6ff", "#8b949e", "#131316"
 
 
-ACCENT = "#53B14F"
-W, H = 840, 290
+def row(x, y, icon, text, cls="v"):
+    return (f'<g transform="translate({x},{y})">'
+            f'<svg viewBox="0 0 16 16" width="15" height="15" y="-11" fill="{GREY}">{ICONS[icon]}</svg>'
+            f'<text x="23" class="{cls}">{esc(text)}</text></g>')
 
 
 def render(d):
-    tiles = [
-        ("Stars earned", d["stars"]),
-        ("Forks", d["forks"]),
-        ("Releases", d["releases"]),
-        ("Watchers", d["watchers"]),
-        ("Repositories", d["repos"]),
-        ("Followers", d["followers"]),
-        ("Merged PRs", d["merged_prs"]),
-        ("Contributed to", d["contributed"]),
+    av = avatar_b64(d["avatar"])
+    head = (f'<image x="30" y="22" width="26" height="26" clip-path="circle(13px at 13px 13px)" '
+            f'href="data:image/png;base64,{av}"/>' if av else "")
+    name_x = 64 if av else 30
+
+    cal = "".join(
+        f'<rect x="{295 + i * 16}" y="34" width="12" height="12" rx="2.5" '
+        f'fill="{day["color"] if day["contributionCount"] else "#2a2a31"}"/>'
+        for i, day in enumerate(d["calendar"]))
+
+    left = [
+        row(30, 80, "clock", f"Joined GitHub {d['years']} years ago"),
+        row(30, 102, "people", f"Followed by {d['followers']:,} users"),
+        row(30, 142, "repo", f"{d['repos']:,} Repositories", "h"),
+        row(30, 164, "law", f"{d['license']} preference" if d["license"] else "No license preference"),
+        row(30, 186, "tag", f"{d['releases']:,} Releases"),
+        row(30, 208, "package", f"{d['packages']:,} Packages"),
     ]
-    cols, pad, gap = 4, 30, 14
-    tw = (W - 2 * pad - (cols - 1) * gap) / cols
-    th = 74
-    cells = []
-    for i, (label, value) in enumerate(tiles):
-        x = pad + (i % cols) * (tw + gap)
-        y = 92 + (i // cols) * (th + gap)
-        cells.append(
-            f'<g><rect x="{x:.1f}" y="{y}" width="{tw:.1f}" height="{th}" rx="11" '
-            f'fill="#1a1a1f" stroke="#2a2a31"/>'
-            f'<text x="{x + 16:.1f}" y="{y + 32}" class="num">{human(value)}</text>'
-            f'<text x="{x + 16:.1f}" y="{y + 55}" class="lbl">{esc(label)}</text></g>'
-        )
-    langs = "  ·  ".join(f"{esc(n)}" for n, _ in d["top_langs"])
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="GitHub statistics">
+    right = [
+        row(295, 74, "contributed", f"Contributed to {d['contributed']:,} repositories"),
+        row(295, 142, "star", f"{d['stars']:,} Stargazers", "h"),
+        row(295, 164, "fork", f"{d['forks']:,} Forkers"),
+        row(295, 186, "eye", f"{d['watchers']:,} Watchers"),
+        row(295, 208, "database", f"{human_size(d['disk'])} used"),
+    ]
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="GitHub statistics for {esc(d['name'])}">
 <title>GitHub statistics for {esc(d['name'])}</title>
 <style>
-  .t{{font:700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;fill:#fff}}
-  .s{{font:400 13px ui-monospace,Menlo,monospace;fill:#70707a}}
-  .num{{font:700 26px ui-monospace,Menlo,monospace;fill:{ACCENT}}}
-  .lbl{{font:400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;fill:#8a8a93}}
+ .n{{font:700 20px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;fill:{BLUE}}}
+ .h{{font:600 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;fill:{BLUE}}}
+ .v{{font:400 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;fill:#c9d1d9}}
 </style>
-<rect width="{W}" height="{H}" rx="14" fill="#131316"/>
-<text x="30" y="44" class="t">GitHub statistics</text>
-<text x="30" y="68" class="s">all owned repositories, private included  ·  {esc(langs)}</text>
-{''.join(cells)}
+<rect width="{W}" height="{H}" rx="12" fill="{BG}"/>
+{head}<text x="{name_x}" y="44" class="n">{esc(d['name'])}</text>
+{cal}
+{''.join(left)}{''.join(right)}
 </svg>
 """
 
 
 if __name__ == "__main__":
     data = collect()
-    with open(OUT, "w") as fh:
-        fh.write(render(data))
-    print(json.dumps({k: v for k, v in data.items() if k != "top_langs"}, indent=2))
+    pathlib.Path(OUT).write_text(render(data))
+    print(json.dumps({k: v for k, v in data.items()
+                      if k not in ("calendar", "avatar")}, indent=2))
