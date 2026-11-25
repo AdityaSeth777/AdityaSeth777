@@ -76,12 +76,12 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
 
 | Role | Company | Duration |
 |---|---|---|
-| 🚀 Software Engineer II (L3), Data & AI | Red Hat, IBM — Pune | Oct 2026 – Present |
+| 🚀 Software Engineer II (L3), Data & AI | Red Hat, IBM  Pune | Oct 2026 – Present |
 | 🧠 Software, Strategy & AI Initiatives Lead | Techno India Group | Aug 2025 – Oct 2026 |
 | 🔬 Research Engineer | iHUB DivyaSampark, IIT Roorkee | Oct 2025 – Oct 2026 |
 | 💻 SWE Intern | Techno Billion AI | Mar 2025 – Sep 2025 |
 | 🛠️ SDE Intern | Oriens InfoTech Pvt. Ltd. (Remote) | Apr 2024 – Jan 2025 |
-| 🌐 Freelance Developer | Remote — US Clients | Oct 2022 – Sep 2024 |
+| 🌐 Freelance Developer | Remote  US Clients | Oct 2022 – Sep 2024 |
 
 ### Wanna listen to what I am listening to ? :)
 
@@ -289,6 +289,10 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 </tr>
 </table>
 
+<div align=center>
+<img width="70%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/blog.svg" alt="Latest posts, auto-updated daily" />
+</div>
+
 <p align="center"><a href="https://adityaseth.in/blog"><b>Read all posts on adityaseth.in/blog</b></a></p>
 
 ### Connect with me:
@@ -311,7 +315,7 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <a href="https://adityaseth.in/gcp-directory" title="Google Cloud Skills Boost"><img width="48" height="48" src="https://img.icons8.com/fluency/48/000000/google-cloud.png" alt="Google Cloud" /></a> &nbsp;
 <a href="https://holopin.io/@adityaseth777" title="Holopin"><img width="48" height="48" src="https://img.icons8.com/fluency/48/medal.png" alt="Holopin" /></a> &nbsp;
 <a href="https://www.quora.com/profile/Aditya-Seth-133" title="Quora"><img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-quora-is-a-question-and-answer-website-where-questions-are-asked-logo-shadow-tal-revivo.png" alt="Quora" /></a> &nbsp;
-<a href="https://tracker.gg/valorant/profile/riot/BabuWhere%23dimun/overview" title="Valorant — Riot ID: BabuWhere#dimun"><img width="48" height="48" src="https://img.icons8.com/color/48/000000/riot-games.png" alt="Riot Games" /></a> &nbsp;
+<a href="https://tracker.gg/valorant/profile/riot/BabuWhere%23dimun/overview" title="Valorant  Riot ID: BabuWhere#dimun"><img width="48" height="48" src="https://img.icons8.com/color/48/000000/riot-games.png" alt="Riot Games" /></a> &nbsp;
 <a href="https://steamcommunity.com/id/adityaseth777" title="Steam"><img width="48" height="48" src="https://img.icons8.com/fluency/48/000000/steam.png" alt="Steam" /></a>
 
   </div>
@@ -337,12 +341,34 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
 <div align="center">
 
 <a href="https://leetcode.com/u/AdityaSethX/"><img src="https://leetcard.jacoblin.cool/AdityaSethX?ext=contest" alt="LeetCode stats" /></a>
+<img src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/leetcode.svg" alt="LeetCode metrics" />
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=AdityaSethX)
 
 </div>
 
+### 💡 Coding habits and activity
+
+<div align=center>
+<img width="100%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/codehabits.svg" alt="Coding habits" />
+</div>
+
+### ⭐ Stargazers, topics and notable work
+
+<div align=center>
+<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/stargazers.svg" alt="Stargazers" />
+<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/topics.svg" alt="Starred topics" />
+<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/notable.svg" alt="Notable contributions" />
+<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/licenses.svg" alt="Repository licenses" />
+</div>
+
 ### Statistics :
+
+<div align=center>
+<img width="100%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/overview.svg" alt="Overview" />
+<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/activity.svg" alt="Recent activity" />
+<img width="49%" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/main/skyline.svg" alt="Contribution skyline" />
+</div>
 
 <div align="center">
    <a href="https://github.com/AdityaSeth777">

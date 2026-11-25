@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       # - name: Most used (with details)
-      #   uses: lowlighter/metrics@latest
+      #   uses: lowlighter/metrics@v3.34
       #   with:
       #     filename: metrics.plugin.languages.details.svg
       #     token: ${{ secrets.METRICS_TOKEN }}
@@ -27,7 +27,7 @@ jobs:
       #     plugin_languages_colors: 0:#00ff00, 1:#ff0000, 2:#0000ff, 3:#ffff00, 4:#00ffff, 5:#ff00ff, 6:#ffffff, 7:#000000
       #     plugin_languages_limit: 10
       - name: Followers
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: followers.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -36,7 +36,7 @@ jobs:
           plugin_people_limit: 100
           plugin_people_types: followers
       - name: Recent Activity
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -48,7 +48,7 @@ jobs:
           plugin_activity_visibility: all
           plugin_activity_filter: all
       # - name: License Activity
-      #   uses: lowlighter/metrics@latest
+      #   uses: lowlighter/metrics@v3.34
       #   with:
       #     filename: licenses.svg
       #     token: ${{ secrets.METRICS_TOKEN }}
@@ -57,7 +57,7 @@ jobs:
       #     repo: ${{ github.repository }}
       #     plugin_licenses_setup: npm ci
       - name: Achivements
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -65,8 +65,47 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
+      - name: Overview
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: overview.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+      - name: Coding habits and activity
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: codehabits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+          plugin_habits_trim: yes
+      - name: Stargazers
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: graph
+      - name: Repository licenses
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: licenses.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          repo: ShieldK8s
+          plugin_licenses: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+          plugin_licenses_legal: yes
+          plugin_licenses_ratio: yes
       - name: LeetCode
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: leetcode.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -75,7 +114,7 @@ jobs:
           plugin_leetcode_user: AdityaSethX
           plugin_leetcode_sections: solved, skills, recent
       - name: Blog posts
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: blog.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -83,8 +122,25 @@ jobs:
           plugin_rss: yes
           plugin_rss_source: https://adityaseth.in/feed.xml
           plugin_rss_limit: 6
+      - name: Topics
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: topics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 15
+      - name: Notable contributions
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_repositories: yes
       - name: GitHub Skyline
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           filename: skyline.svg
           token: NOT_NEEDED
