@@ -23,13 +23,13 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
 <tr><td align="right"><b>Languages</b></td><td><img src="https://skillicons.dev/icons?i=python,java,cpp,c,typescript,javascript,bash,kotlin" /></td></tr>
 <tr><td align="right"><b>Backend&nbsp;&&nbsp;APIs</b></td><td><img src="https://skillicons.dev/icons?i=spring,fastapi,django,nodejs,graphql" /><img height="48" src="https://cdn.simpleicons.org/socketdotio/B0B0B0" title="WebSocket" /><img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grpc/grpc-original.svg" title="gRPC" /></td></tr>
 <tr><td align="right"><b>Frontend</b></td><td><img src="https://skillicons.dev/icons?i=react,nextjs,html,css" /></td></tr>
-<tr><td align="right"><b>Data</b></td><td><img src="https://skillicons.dev/icons?i=postgresql,mysql,redis,elasticsearch,sqlite" /></td></tr>
-<tr><td align="right"><b>Cloud&nbsp;&&nbsp;Infra</b></td><td><img src="https://skillicons.dev/icons?i=aws,gcp,azure,kubernetes,docker,terraform,linux,kafka,nginx,redhat" /><img height="48" src="https://cdn.simpleicons.org/helm/3C50D6" title="Helm" /></td></tr>
+<tr><td align="right"><b>Data</b></td><td><img src="https://skillicons.dev/icons?i=postgresql,mysql,redis,elasticsearch,sqlite" /><img height="48" src="https://cdn.simpleicons.org/snowflake" title="Snowflake" /><img height="48" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/aws-aurora.svg" title="AWS Aurora" /><img height="48" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/chroma.svg" title="ChromaDB" /><img height="48" src="https://www.vectorlogo.zone/logos/amplitude/amplitude-icon.svg" title="Amplitude" /></td></tr>
+<tr><td align="right"><b>Cloud&nbsp;&&nbsp;Infra</b></td><td><img src="https://skillicons.dev/icons?i=aws,gcp,azure,kubernetes,docker,terraform,linux,kafka,nginx,redhat" /><img height="48" src="https://cdn.simpleicons.org/helm/3C50D6" title="Helm" /><img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" title="Salesforce" /></td></tr>
+<tr><td align="right"><b>Hosting&nbsp;&&nbsp;deploy</b></td><td><img height="48" src="https://cdn.simpleicons.org/vercel/B0B0B0" title="Vercel" /><img height="48" src="https://cdn.simpleicons.org/netlify" title="Netlify" /><img height="48" src="https://cdn.simpleicons.org/cloudflare" title="Cloudflare" /><img height="48" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/google-cloud-run.svg" title="Google Cloud Run" /><img height="48" src="https://cdn.simpleicons.org/firebase" title="Firebase Hosting" /><img height="48" src="https://cdn.simpleicons.org/render/46E3B7" title="Render" /><img height="48" src="https://cdn.simpleicons.org/railway/B0B0B0" title="Railway" /><img height="48" src="https://cdn.simpleicons.org/digitalocean" title="DigitalOcean" /><img height="48" src="https://cdn.simpleicons.org/githubpages/B0B0B0" title="GitHub Pages" /></td></tr>
 <tr><td align="right"><b>Observability&nbsp;&&nbsp;CI</b></td><td><img src="https://skillicons.dev/icons?i=prometheus,grafana,githubactions,jenkins" /><img height="48" src="https://cdn.simpleicons.org/opentelemetry/F5A800" title="OpenTelemetry" /><img height="48" src="https://cdn.simpleicons.org/kibana" title="Kibana (ELK)" /><img height="48" src="https://cdn.simpleicons.org/logstash" title="Logstash (ELK)" /></td></tr>
-<tr><td align="right"><b>ML&nbsp;&&nbsp;AI</b></td><td><img src="https://skillicons.dev/icons?i=pytorch,scikitlearn,opencv" /><img height="48" src="https://cdn.simpleicons.org/onnx" title="ONNX Runtime" /><img height="48" src="https://cdn.simpleicons.org/ultralytics/4A5FCF" title="YOLOv8" /><img height="48" src="https://cdn.simpleicons.org/mediapipe" title="MediaPipe" /><img height="28" src="https://img.shields.io/badge/XGBoost-informational?style=flat&color=1A73E8&labelColor=1c1c1c" title="XGBoost" /></td></tr>
-<tr><td align="right"><b>LLM&nbsp;&&nbsp;RAG</b></td><td><img height="48" src="https://cdn.simpleicons.org/ollama/B0B0B0" title="Ollama" /><img height="48" src="https://cdn.simpleicons.org/langchain" title="LangChain" /><img height="48" src="https://cdn.simpleicons.org/huggingface" title="Hugging Face" /><img height="28" src="https://img.shields.io/badge/ChromaDB-informational?style=flat&color=FFC107&labelColor=1c1c1c" title="ChromaDB" /></td></tr>
-<tr><td align="right"><b>Testing</b></td><td><img height="48" src="https://cdn.simpleicons.org/junit5" title="JUnit 5" /><img height="48" src="https://cdn.simpleicons.org/pytest" title="pytest" /><img height="28" src="https://img.shields.io/badge/Mockito-informational?style=flat&color=78A641&labelColor=1c1c1c" title="Mockito" /></td></tr>
-<tr><td align="right"><b>Tools</b></td><td><img src="https://skillicons.dev/icons?i=git,github,postman,vscode,photoshop,illustrator" /></td></tr>
+<tr><td align="right"><b>AI&nbsp;&&nbsp;ML</b></td><td><img src="https://skillicons.dev/icons?i=pytorch,scikitlearn,opencv" /><img height="48" src="https://cdn.simpleicons.org/onnx" title="ONNX Runtime" /><img height="48" src="https://cdn.simpleicons.org/ultralytics/4A5FCF" title="YOLOv8" /><img height="48" src="https://cdn.simpleicons.org/mediapipe" title="MediaPipe" /><img height="30" src="https://xgboost.ai/images/logo/xgboost-logo-trimmed.png" title="XGBoost" /><img height="48" src="https://cdn.simpleicons.org/ollama/B0B0B0" title="Ollama" /><img height="48" src="https://cdn.simpleicons.org/langchain" title="LangChain" /><img height="48" src="https://cdn.simpleicons.org/huggingface" title="Hugging Face" /><img height="48" src="https://avatars.githubusercontent.com/u/149120496?s=120" title="Mastra" /></td></tr>
+<tr><td align="right"><b>Testing</b></td><td><img height="48" src="https://cdn.simpleicons.org/junit5" title="JUnit 5" /><img height="48" src="https://cdn.simpleicons.org/pytest" title="pytest" /><img height="48" src="https://avatars.githubusercontent.com/u/2054056?s=120" title="Mockito" /></td></tr>
+<tr><td align="right"><b>Tools</b></td><td><img src="https://skillicons.dev/icons?i=git,github,gitlab,postman,vscode,photoshop,illustrator" /><img height="48" src="https://cdn.simpleicons.org/dbeaver/B8916A" title="DBeaver" /></td></tr>
 <tr><td align="right"><b>Operating&nbsp;systems</b></td><td><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,kali,debian,mint,redhat,apple,windows" /></td></tr>
 <tr><td align="right"><b>Interests</b></td><td><img height="44" src="https://img.icons8.com/color/48/source-code.png" title="Coding" /><img height="44" src="https://img.icons8.com/color/48/lock-2.png" title="Cryptography" /><img height="44" src="https://img.icons8.com/color/48/puzzle.png" title="Problem solving" /><img height="44" src="https://img.icons8.com/color/48/adobe-photoshop--v1.png" title="Graphic editing" /><img height="44" src="https://img.icons8.com/color/48/camera.png" title="Photography" /><img height="44" src="https://img.icons8.com/color/48/system-task.png" title="Distro hopping" /></td></tr>
 </table>
@@ -56,6 +56,18 @@ Name = "Aditya Seth", "আদিত্য সেঠ", "आदित्य से
   
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=setha4195&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=setha4195&redirect=true)
   
+</div>
+
+## 🐍 Contribution Snake
+
+<div align=center>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake.svg" />
+</picture>
+
 </div>
 
 ## 💻 My workforce
@@ -354,18 +366,6 @@ Beyond the camera, I spend my off-hours digging into **cryptography** puzzles an
    <img width=100% height=100% align="center" alt="Coding" src="https://readme-typing-svg.herokuapp.com?font=Sora&color=e3d20c&center=true&vCenter=true&width=450%&lines=Shoutout+to+my+followers+!!!" />
    <img width=100% height=100% align="center" alt="Followers" src="./followers.svg" />
    </a>
-</div>
-
-## 🐍 Contribution Snake
-
-<div align=center>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/AdityaSeth777/AdityaSeth777/output/github-contribution-grid-snake.svg" />
-</picture>
-
 </div>
 
 [![@adityaseth777's Holopin board](https://holopin.me/adityaseth777)](https://holopin.io/@adityaseth777)
