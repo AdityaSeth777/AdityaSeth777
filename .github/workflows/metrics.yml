@@ -26,19 +26,6 @@ jobs:
       #     plugin_languages_ignored: javascript
       #     plugin_languages_colors: 0:#00ff00, 1:#ff0000, 2:#0000ff, 3:#ffff00, 4:#00ffff, 5:#ff00ff, 6:#ffffff, 7:#000000
       #     plugin_languages_limit: 10
-      - name: Code Habits
-        uses: lowlighter/metrics@latest
-        with:
-          filename: codehabits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          config_timezone: Asia/Kolkata
-          plugin_habits: yes
-          plugin_habits_from: 5
-          plugin_habits_days: 30
-          plugin_habits_trim: yes
-          plugin_habits_charts: no
-          plugin_habits_facts: yes
       - name: Followers
         uses: lowlighter/metrics@latest
         with:
@@ -54,8 +41,8 @@ jobs:
           filename: activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_activity: no
-          plugin_activity_limit: 3
+          plugin_activity: yes
+          plugin_activity_limit: 5
           plugin_activity_load: 999
           plugin_activity_days: 10
           plugin_activity_visibility: all
@@ -78,6 +65,24 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: leetcode.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: AdityaSethX
+          plugin_leetcode_sections: solved, skills, recent
+      - name: Blog posts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: blog.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_rss: yes
+          plugin_rss_source: https://adityaseth.in/feed.xml
+          plugin_rss_limit: 6
       - name: GitHub Skyline
         uses: lowlighter/metrics@latest
         with:
